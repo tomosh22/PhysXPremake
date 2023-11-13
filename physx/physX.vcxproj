@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Dist|x64">
+      <Configuration>Dist</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E1D12410-4DE6-4CC1-1668-F020823B49F2}</ProjectGuid>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>physX</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Dist|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>bin\Debug--x86_64\physX\</OutDir>
+    <IntDir>bin-int\Debug--x86_64\physX\</IntDir>
+    <TargetName>physX</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>bin\Release--x86_64\physX\</OutDir>
+    <IntDir>bin-int\Release--x86_64\physX\</IntDir>
+    <TargetName>physX</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'">
+    <OutDir>bin\Dist--x86_64\physX\</OutDir>
+    <IntDir>bin-int\Dist--x86_64\physX\</IntDir>
+    <TargetName>physX</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>PX_PHYSX_STATIC_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>include;include\common;include\foundation;include\collision;source\common\src;source\common\include;source\pvd\include;source\lowlevelaabb\include;source\scenequery\include;source\geomutils\include;source\simulationcontroller\src;source\simulationcontroller\include;source\lowlevel\api\include;source\geomutils\src;source\lowlevel\software\include;source\lowlevel\common\include\pipeline;source\geomutils\src\contact;source\lowlevel\common\include\utils;source\geomutils\src\pcm;source\lowleveldynamics\include;source\geomutils\src\mesh;source\geomutils\src\hf;source\geomutils\src\convex;source\geomutils\src\common;source\geomutils\src\intersection;source\geomutils\src\distance;source\geomutils\src\ccd;source\geomutils\src\gjk;source\geomutils\src\sweep;source\physxgpu\include;source\fastxml\include;source\physx\src;source\physx\src\device;source\lowlevel\common\include\collision;source\physxextensions\src;source\physxextensions\src\serialization\File;source\physxextensions\src\serialization\Xml;source\physxextensions\src\serialization\Binary;source\physxvehicle\src\physxmetadata\include;source\physxmetadata\core\include;source\physxmetadata\extensions\include;source\filebuf\include;source\physxvehicle\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ExternalWarningLevel>Level3</ExternalWarningLevel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>PX_PHYSX_STATIC_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>include;include\common;include\foundation;include\collision;source\common\src;source\common\include;source\pvd\include;source\lowlevelaabb\include;source\scenequery\include;source\geomutils\include;source\simulationcontroller\src;source\simulationcontroller\include;source\lowlevel\api\include;source\geomutils\src;source\lowlevel\software\include;source\lowlevel\common\include\pipeline;source\geomutils\src\contact;source\lowlevel\common\include\utils;source\geomutils\src\pcm;source\lowleveldynamics\include;source\geomutils\src\mesh;source\geomutils\src\hf;source\geomutils\src\convex;source\geomutils\src\common;source\geomutils\src\intersection;source\geomutils\src\distance;source\geomutils\src\ccd;source\geomutils\src\gjk;source\geomutils\src\sweep;source\physxgpu\include;source\fastxml\include;source\physx\src;source\physx\src\device;source\lowlevel\common\include\collision;source\physxextensions\src;source\physxextensions\src\serialization\File;source\physxextensions\src\serialization\Xml;source\physxextensions\src\serialization\Binary;source\physxvehicle\src\physxmetadata\include;source\physxmetadata\core\include;source\physxmetadata\extensions\include;source\filebuf\include;source\physxvehicle\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ExternalWarningLevel>Level3</ExternalWarningLevel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>PX_PHYSX_STATIC_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>include;include\common;include\foundation;include\collision;source\common\src;source\common\include;source\pvd\include;source\lowlevelaabb\include;source\scenequery\include;source\geomutils\include;source\simulationcontroller\src;source\simulationcontroller\include;source\lowlevel\api\include;source\geomutils\src;source\lowlevel\software\include;source\lowlevel\common\include\pipeline;source\geomutils\src\contact;source\lowlevel\common\include\utils;source\geomutils\src\pcm;source\lowleveldynamics\include;source\geomutils\src\mesh;source\geomutils\src\hf;source\geomutils\src\convex;source\geomutils\src\common;source\geomutils\src\intersection;source\geomutils\src\distance;source\geomutils\src\ccd;source\geomutils\src\gjk;source\geomutils\src\sweep;source\physxgpu\include;source\fastxml\include;source\physx\src;source\physx\src\device;source\lowlevel\common\include\collision;source\physxextensions\src;source\physxextensions\src\serialization\File;source\physxextensions\src\serialization\Xml;source\physxextensions\src\serialization\Binary;source\physxvehicle\src\physxmetadata\include;source\physxmetadata\core\include;source\physxmetadata\extensions\include;source\filebuf\include;source\physxvehicle\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ExternalWarningLevel>Level3</ExternalWarningLevel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="snippets\snippetcustomgeometry\VoxelMap.cpp" />
+    <ClCompile Include="source\common\src\CmCollection.cpp" />
+    <ClCompile Include="source\common\src\CmPtrTable.cpp" />
+    <ClCompile Include="source\common\src\CmRadixSort.cpp" />
+    <ClCompile Include="source\common\src\CmSerialize.cpp" />
+    <ClCompile Include="source\common\src\CmVisualization.cpp" />
+    <ClCompile Include="source\common\src\windows\CmWindowsDelayLoadHook.cpp" />
+    <ClCompile Include="source\common\src\windows\CmWindowsModuleUpdateLoader.cpp" />
+    <ClCompile Include="source\fastxml\src\PsFastXml.cpp" />
+    <ClCompile Include="source\foundation\FdAllocator.cpp" />
+    <ClCompile Include="source\foundation\FdAssert.cpp" />
+    <ClCompile Include="source\foundation\FdFoundation.cpp" />
+    <ClCompile Include="source\foundation\FdMathUtils.cpp" />
+    <ClCompile Include="source\foundation\FdString.cpp" />
+    <ClCompile Include="source\foundation\FdTempAllocator.cpp" />
+    <ClCompile Include="source\foundation\windows\FdWindowsAtomic.cpp" />
+    <ClCompile Include="source\foundation\windows\FdWindowsFPU.cpp" />
+    <ClCompile Include="source\foundation\windows\FdWindowsMutex.cpp" />
+    <ClCompile Include="source\foundation\windows\FdWindowsPrintString.cpp" />
+    <ClCompile Include="source\foundation\windows\FdWindowsSList.cpp" />
+    <ClCompile Include="source\foundation\windows\FdWindowsSocket.cpp" />
+    <ClCompile Include="source\foundation\windows\FdWindowsSync.cpp" />
+    <ClCompile Include="source\foundation\windows\FdWindowsThread.cpp" />
+    <ClCompile Include="source\foundation\windows\FdWindowsTime.cpp" />
+    <ClCompile Include="source\geomutils\src\GuAABBPruner.cpp" />
+    <ClCompile Include="source\geomutils\src\GuAABBTree.cpp" />
+    <ClCompile Include="source\geomutils\src\GuAABBTreeUpdateMap.cpp" />
+    <ClCompile Include="source\geomutils\src\GuActorShapeMap.cpp" />
+    <ClCompile Include="source\geomutils\src\GuBVH.cpp" />
+    <ClCompile Include="source\geomutils\src\GuBounds.cpp" />
+    <ClCompile Include="source\geomutils\src\GuBox.cpp" />
+    <ClCompile Include="source\geomutils\src\GuBucketPruner.cpp" />
+    <ClCompile Include="source\geomutils\src\GuCCTSweepTests.cpp" />
+    <ClCompile Include="source\geomutils\src\GuCapsule.cpp" />
+    <ClCompile Include="source\geomutils\src\GuCookingSDF.cpp" />
+    <ClCompile Include="source\geomutils\src\GuExtendedBucketPruner.cpp" />
+    <ClCompile Include="source\geomutils\src\GuFactory.cpp" />
+    <ClCompile Include="source\geomutils\src\GuGeometryQuery.cpp" />
+    <ClCompile Include="source\geomutils\src\GuGjkQuery.cpp" />
+    <ClCompile Include="source\geomutils\src\GuIncrementalAABBPruner.cpp" />
+    <ClCompile Include="source\geomutils\src\GuIncrementalAABBPrunerCore.cpp" />
+    <ClCompile Include="source\geomutils\src\GuIncrementalAABBTree.cpp" />
+    <ClCompile Include="source\geomutils\src\GuInternal.cpp" />
+    <ClCompile Include="source\geomutils\src\GuMTD.cpp" />
+    <ClCompile Include="source\geomutils\src\GuMaverickNode.cpp" />
+    <ClCompile Include="source\geomutils\src\GuMeshFactory.cpp" />
+    <ClCompile Include="source\geomutils\src\GuMetaData.cpp" />
+    <ClCompile Include="source\geomutils\src\GuOverlapTests.cpp" />
+    <ClCompile Include="source\geomutils\src\GuPruningPool.cpp" />
+    <ClCompile Include="source\geomutils\src\GuQuerySystem.cpp" />
+    <ClCompile Include="source\geomutils\src\GuRaycastTests.cpp" />
+    <ClCompile Include="source\geomutils\src\GuSAH.cpp" />
+    <ClCompile Include="source\geomutils\src\GuSDF.cpp" />
+    <ClCompile Include="source\geomutils\src\GuSecondaryPruner.cpp" />
+    <ClCompile Include="source\geomutils\src\GuSqInternal.cpp" />
+    <ClCompile Include="source\geomutils\src\GuSweepMTD.cpp" />
+    <ClCompile Include="source\geomutils\src\GuSweepSharedTests.cpp" />
+    <ClCompile Include="source\geomutils\src\GuSweepTests.cpp" />
+    <ClCompile Include="source\geomutils\src\GuWindingNumber.cpp" />
+    <ClCompile Include="source\geomutils\src\ccd\GuCCDSweepConvexMesh.cpp" />
+    <ClCompile Include="source\geomutils\src\ccd\GuCCDSweepPrimitives.cpp" />
+    <ClCompile Include="source\geomutils\src\common\GuAdjacencies.cpp" />
+    <ClCompile Include="source\geomutils\src\common\GuBarycentricCoordinates.cpp" />
+    <ClCompile Include="source\geomutils\src\common\GuEdgeList.cpp" />
+    <ClCompile Include="source\geomutils\src\common\GuMeshAnalysis.cpp" />
+    <ClCompile Include="source\geomutils\src\common\GuMeshCleaner.cpp" />
+    <ClCompile Include="source\geomutils\src\common\GuQuantizer.cpp" />
+    <ClCompile Include="source\geomutils\src\common\GuSeparatingAxes.cpp" />
+    <ClCompile Include="source\geomutils\src\common\GuVertexReducer.cpp" />
+    <ClCompile Include="source\geomutils\src\contact\GuContactBoxBox.cpp" />
+    <ClCompile Include="source\geomutils\src\contact\GuContactCapsuleBox.cpp" />
+    <ClCompile Include="source\geomutils\src\contact\GuContactCapsuleCapsule.cpp" />
+    <ClCompile Include="source\geomutils\src\contact\GuContactCapsuleConvex.cpp" />
+    <ClCompile Include="source\geomutils\src\contact\GuContactCapsuleMesh.cpp" />
+    <ClCompile Include="source\geomutils\src\contact\GuContactConvexConvex.cpp" />
+    <ClCompile Include="source\geomutils\src\contact\GuContactConvexMesh.cpp" />
+    <ClCompile Include="source\geomutils\src\contact\GuContactCustomGeometry.cpp" />
+    <ClCompile Include="source\geomutils\src\contact\GuContactPlaneBox.cpp" />
+    <ClCompile Include="source\geomutils\src\contact\GuContactPlaneCapsule.cpp" />
+    <ClCompile Include="source\geomutils\src\contact\GuContactPlaneConvex.cpp" />
+    <ClCompile Include="source\geomutils\src\contact\GuContactPolygonPolygon.cpp" />
+    <ClCompile Include="source\geomutils\src\contact\GuContactSphereBox.cpp" />
+    <ClCompile Include="source\geomutils\src\contact\GuContactSphereCapsule.cpp" />
+    <ClCompile Include="source\geomutils\src\contact\GuContactSphereMesh.cpp" />
+    <ClCompile Include="source\geomutils\src\contact\GuContactSpherePlane.cpp" />
+    <ClCompile Include="source\geomutils\src\contact\GuContactSphereSphere.cpp" />
+    <ClCompile Include="source\geomutils\src\contact\GuFeatureCode.cpp" />
+    <ClCompile Include="source\geomutils\src\convex\GuBigConvexData.cpp" />
+    <ClCompile Include="source\geomutils\src\convex\GuConvexHelper.cpp" />
+    <ClCompile Include="source\geomutils\src\convex\GuConvexMesh.cpp" />
+    <ClCompile Include="source\geomutils\src\convex\GuConvexSupportTable.cpp" />
+    <ClCompile Include="source\geomutils\src\convex\GuConvexUtilsInternal.cpp" />
+    <ClCompile Include="source\geomutils\src\convex\GuHillClimbing.cpp" />
+    <ClCompile Include="source\geomutils\src\convex\GuShapeConvex.cpp" />
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingBVH.cpp" />
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingBigConvexDataBuilder.cpp" />
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingConvexHullBuilder.cpp" />
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingConvexHullLib.cpp" />
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingConvexHullUtils.cpp" />
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingConvexMesh.cpp" />
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingConvexMeshBuilder.cpp" />
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingConvexPolygonsBuilder.cpp" />
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingHF.cpp" />
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingQuickHullConvexHullLib.cpp" />
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingTetrahedronMesh.cpp" />
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingTriangleMesh.cpp" />
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingVolumeIntegration.cpp" />
+    <ClCompile Include="source\geomutils\src\cooking\GuRTreeCooking.cpp" />
+    <ClCompile Include="source\geomutils\src\distance\GuDistancePointBox.cpp" />
+    <ClCompile Include="source\geomutils\src\distance\GuDistancePointTetrahedron.cpp" />
+    <ClCompile Include="source\geomutils\src\distance\GuDistancePointTriangle.cpp" />
+    <ClCompile Include="source\geomutils\src\distance\GuDistanceSegmentBox.cpp" />
+    <ClCompile Include="source\geomutils\src\distance\GuDistanceSegmentSegment.cpp" />
+    <ClCompile Include="source\geomutils\src\distance\GuDistanceSegmentTriangle.cpp" />
+    <ClCompile Include="source\geomutils\src\distance\GuDistanceTriangleTriangle.cpp" />
+    <ClCompile Include="source\geomutils\src\gjk\GuEPA.cpp" />
+    <ClCompile Include="source\geomutils\src\gjk\GuGJKSimplex.cpp" />
+    <ClCompile Include="source\geomutils\src\gjk\GuGJKTest.cpp" />
+    <ClCompile Include="source\geomutils\src\hf\GuHeightField.cpp" />
+    <ClCompile Include="source\geomutils\src\hf\GuHeightFieldUtil.cpp" />
+    <ClCompile Include="source\geomutils\src\hf\GuOverlapTestsHF.cpp" />
+    <ClCompile Include="source\geomutils\src\hf\GuSweepsHF.cpp" />
+    <ClCompile Include="source\geomutils\src\intersection\GuIntersectionBoxBox.cpp" />
+    <ClCompile Include="source\geomutils\src\intersection\GuIntersectionCapsuleTriangle.cpp" />
+    <ClCompile Include="source\geomutils\src\intersection\GuIntersectionEdgeEdge.cpp" />
+    <ClCompile Include="source\geomutils\src\intersection\GuIntersectionRayBox.cpp" />
+    <ClCompile Include="source\geomutils\src\intersection\GuIntersectionRayCapsule.cpp" />
+    <ClCompile Include="source\geomutils\src\intersection\GuIntersectionRaySphere.cpp" />
+    <ClCompile Include="source\geomutils\src\intersection\GuIntersectionSphereBox.cpp" />
+    <ClCompile Include="source\geomutils\src\intersection\GuIntersectionTetrahedronBox.cpp" />
+    <ClCompile Include="source\geomutils\src\intersection\GuIntersectionTriangleBox.cpp" />
+    <ClCompile Include="source\geomutils\src\intersection\GuIntersectionTriangleTriangle.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuBV32.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuBV32Build.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4Build.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4_AABBSweep.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4_BoxOverlap.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4_CapsuleSweep.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4_CapsuleSweepAA.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4_MeshMeshOverlap.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4_OBBSweep.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4_Raycast.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4_SphereOverlap.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4_SphereSweep.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuMeshQuery.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuMidphaseBV4.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuMidphaseRTree.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuOverlapTestsMesh.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuRTree.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuRTreeQueries.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuSweepsMesh.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuTetrahedronMesh.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuTetrahedronMeshUtils.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuTriangleMesh.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuTriangleMeshBV4.cpp" />
+    <ClCompile Include="source\geomutils\src\mesh\GuTriangleMeshRTree.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactBoxBox.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactBoxConvex.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactCapsuleBox.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactCapsuleCapsule.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactCapsuleConvex.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactCapsuleHeightField.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactCapsuleMesh.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactConvexCommon.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactConvexConvex.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactConvexHeightField.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactConvexMesh.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactCustomGeometry.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactGenBoxConvex.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactGenSphereCapsule.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactGenUtil.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactPlaneBox.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactPlaneCapsule.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactPlaneConvex.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactSphereBox.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactSphereCapsule.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactSphereConvex.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactSphereHeightField.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactSphereMesh.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactSpherePlane.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactSphereSphere.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMShapeConvex.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMTriangleContactGen.cpp" />
+    <ClCompile Include="source\geomutils\src\pcm\GuPersistentContactManifold.cpp" />
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepBoxBox.cpp" />
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepBoxSphere.cpp" />
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepBoxTriangle_FeatureBased.cpp" />
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepBoxTriangle_SAT.cpp" />
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepCapsuleBox.cpp" />
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepCapsuleCapsule.cpp" />
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepCapsuleTriangle.cpp" />
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepSphereCapsule.cpp" />
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepSphereSphere.cpp" />
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepSphereTriangle.cpp" />
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepTriangleUtils.cpp" />
+    <ClCompile Include="source\immediatemode\src\NpImmediateMode.cpp" />
+    <ClCompile Include="source\lowlevel\api\src\px_globals.cpp" />
+    <ClCompile Include="source\lowlevel\common\src\pipeline\PxcContactCache.cpp" />
+    <ClCompile Include="source\lowlevel\common\src\pipeline\PxcContactMethodImpl.cpp" />
+    <ClCompile Include="source\lowlevel\common\src\pipeline\PxcMaterialMethodImpl.cpp" />
+    <ClCompile Include="source\lowlevel\common\src\pipeline\PxcNpBatch.cpp" />
+    <ClCompile Include="source\lowlevel\common\src\pipeline\PxcNpCacheStreamPair.cpp" />
+    <ClCompile Include="source\lowlevel\common\src\pipeline\PxcNpContactPrepShared.cpp" />
+    <ClCompile Include="source\lowlevel\common\src\pipeline\PxcNpMemBlockPool.cpp" />
+    <ClCompile Include="source\lowlevel\common\src\pipeline\PxcNpThreadContext.cpp" />
+    <ClCompile Include="source\lowlevel\software\src\PxsCCD.cpp" />
+    <ClCompile Include="source\lowlevel\software\src\PxsContactManager.cpp" />
+    <ClCompile Include="source\lowlevel\software\src\PxsContext.cpp" />
+    <ClCompile Include="source\lowlevel\software\src\PxsDefaultMemoryManager.cpp" />
+    <ClCompile Include="source\lowlevel\software\src\PxsIslandSim.cpp" />
+    <ClCompile Include="source\lowlevel\software\src\PxsNphaseImplementationContext.cpp" />
+    <ClCompile Include="source\lowlevel\software\src\PxsSimpleIslandManager.cpp" />
+    <ClCompile Include="source\lowlevelaabb\src\BpAABBManager.cpp" />
+    <ClCompile Include="source\lowlevelaabb\src\BpAABBManagerBase.cpp" />
+    <ClCompile Include="source\lowlevelaabb\src\BpBroadPhase.cpp" />
+    <ClCompile Include="source\lowlevelaabb\src\BpBroadPhaseABP.cpp" />
+    <ClCompile Include="source\lowlevelaabb\src\BpBroadPhaseMBP.cpp" />
+    <ClCompile Include="source\lowlevelaabb\src\BpBroadPhaseSap.cpp" />
+    <ClCompile Include="source\lowlevelaabb\src\BpBroadPhaseSapAux.cpp" />
+    <ClCompile Include="source\lowlevelaabb\src\BpBroadPhaseShared.cpp" />
+    <ClCompile Include="source\lowlevelaabb\src\BpBroadPhaseUpdate.cpp" />
+    <ClCompile Include="source\lowlevelaabb\src\BpFiltering.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DyArticulationContactPrep.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DyArticulationContactPrepPF.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DyConstraintPartition.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DyConstraintSetup.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DyConstraintSetupBlock.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DyContactPrep.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DyContactPrep4.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DyContactPrep4PF.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DyContactPrepPF.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DyDynamics.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DyFeatherstoneArticulation.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DyFeatherstoneForwardDynamic.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DyFeatherstoneInverseDynamic.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DyFrictionCorrelation.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DyRigidBodyToSolverBody.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DySleep.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DySolverConstraints.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DySolverConstraintsBlock.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DySolverControl.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DySolverControlPF.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DySolverPFConstraints.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DySolverPFConstraintsBlock.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DyTGSContactPrep.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DyTGSContactPrepBlock.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DyTGSDynamics.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DyThreadContext.cpp" />
+    <ClCompile Include="source\lowleveldynamics\src\DyThresholdTable.cpp" />
+    <ClCompile Include="source\physx\src\NpActor.cpp" />
+    <ClCompile Include="source\physx\src\NpAggregate.cpp" />
+    <ClCompile Include="source\physx\src\NpArticulationJointReducedCoordinate.cpp" />
+    <ClCompile Include="source\physx\src\NpArticulationLink.cpp" />
+    <ClCompile Include="source\physx\src\NpArticulationReducedCoordinate.cpp" />
+    <ClCompile Include="source\physx\src\NpArticulationSensor.cpp" />
+    <ClCompile Include="source\physx\src\NpArticulationTendon.cpp" />
+    <ClCompile Include="source\physx\src\NpBounds.cpp" />
+    <ClCompile Include="source\physx\src\NpCheck.cpp" />
+    <ClCompile Include="source\physx\src\NpConstraint.cpp" />
+    <ClCompile Include="source\physx\src\NpDebugViz.cpp" />
+    <ClCompile Include="source\physx\src\NpFEMCloth.cpp" />
+    <ClCompile Include="source\physx\src\NpFEMClothMaterial.cpp" />
+    <ClCompile Include="source\physx\src\NpFEMSoftBodyMaterial.cpp" />
+    <ClCompile Include="source\physx\src\NpFLIPMaterial.cpp" />
+    <ClCompile Include="source\physx\src\NpFactory.cpp" />
+    <ClCompile Include="source\physx\src\NpHairSystem.cpp" />
+    <ClCompile Include="source\physx\src\NpMPMMaterial.cpp" />
+    <ClCompile Include="source\physx\src\NpMaterial.cpp" />
+    <ClCompile Include="source\physx\src\NpMetaData.cpp" />
+    <ClCompile Include="source\physx\src\NpPBDMaterial.cpp" />
+    <ClCompile Include="source\physx\src\NpParticleSystem.cpp" />
+    <ClCompile Include="source\physx\src\NpPhysics.cpp" />
+    <ClCompile Include="source\physx\src\NpPruningStructure.cpp" />
+    <ClCompile Include="source\physx\src\NpPvdSceneClient.cpp" />
+    <ClCompile Include="source\physx\src\NpPvdSceneQueryCollector.cpp" />
+    <ClCompile Include="source\physx\src\NpRigidDynamic.cpp" />
+    <ClCompile Include="source\physx\src\NpRigidStatic.cpp" />
+    <ClCompile Include="source\physx\src\NpScene.cpp" />
+    <ClCompile Include="source\physx\src\NpSceneFetchResults.cpp" />
+    <ClCompile Include="source\physx\src\NpSceneQueries.cpp" />
+    <ClCompile Include="source\physx\src\NpSerializerAdapter.cpp" />
+    <ClCompile Include="source\physx\src\NpShape.cpp" />
+    <ClCompile Include="source\physx\src\NpShapeManager.cpp" />
+    <ClCompile Include="source\physx\src\NpSoftBody.cpp" />
+    <ClCompile Include="source\physx\src\PvdMetaDataPvdBinding.cpp" />
+    <ClCompile Include="source\physx\src\PvdPhysicsClient.cpp" />
+    <ClCompile Include="source\physx\src\device\linux\PhysXIndicatorLinux.cpp" />
+    <ClCompile Include="source\physx\src\device\windows\PhysXIndicatorWindows.cpp" />
+    <ClCompile Include="source\physx\src\gpu\PxGpu.cpp" />
+    <ClCompile Include="source\physx\src\gpu\PxPhysXGpuModuleLoader.cpp" />
+    <ClCompile Include="source\physx\src\omnipvd\NpOmniPvd.cpp" />
+    <ClCompile Include="source\physx\src\omnipvd\NpOmniPvdRegistrationData.cpp" />
+    <ClCompile Include="source\physx\src\omnipvd\OmniPvdChunkAlloc.cpp" />
+    <ClCompile Include="source\physx\src\omnipvd\OmniPvdPxSampler.cpp" />
+    <ClCompile Include="source\physx\src\windows\NpWindowsDelayLoadHook.cpp" />
+    <ClCompile Include="source\physxcharacterkinematic\src\CctBoxController.cpp" />
+    <ClCompile Include="source\physxcharacterkinematic\src\CctCapsuleController.cpp" />
+    <ClCompile Include="source\physxcharacterkinematic\src\CctCharacterController.cpp" />
+    <ClCompile Include="source\physxcharacterkinematic\src\CctCharacterControllerCallbacks.cpp" />
+    <ClCompile Include="source\physxcharacterkinematic\src\CctCharacterControllerManager.cpp" />
+    <ClCompile Include="source\physxcharacterkinematic\src\CctController.cpp" />
+    <ClCompile Include="source\physxcharacterkinematic\src\CctObstacleContext.cpp" />
+    <ClCompile Include="source\physxcharacterkinematic\src\CctSweptBox.cpp" />
+    <ClCompile Include="source\physxcharacterkinematic\src\CctSweptCapsule.cpp" />
+    <ClCompile Include="source\physxcharacterkinematic\src\CctSweptVolume.cpp" />
+    <ClCompile Include="source\physxcooking\src\Cooking.cpp" />
+    <ClCompile Include="source\physxcooking\src\windows\WindowsCookingDelayLoadHook.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtBroadPhase.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtCollection.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtContactJoint.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtConvexMeshExt.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtCpuWorkerThread.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtCustomGeometryExt.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtCustomSceneQuerySystem.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtD6Joint.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtD6JointCreate.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtDefaultCpuDispatcher.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtDefaultErrorCallback.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtDefaultSimulationFilterShader.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtDefaultStreams.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtDistanceJoint.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtExtensions.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtFixedJoint.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtGearJoint.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtGjkQueryExt.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtJoint.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtMetaData.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtParticleClothCooker.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtParticleExt.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtPrismaticJoint.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtPvd.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtPxStringTable.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtRackAndPinionJoint.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtRaycastCCD.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtRemeshingExt.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtRevoluteJoint.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtRigidActorExt.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtRigidBodyExt.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtSampling.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtSceneQueryExt.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtSceneQuerySystem.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtSimpleFactory.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtSmoothNormals.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtSoftBodyExt.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtSphericalJoint.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtSqManager.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtSqQuery.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtTetMakerExt.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtTetrahedronMeshExt.cpp" />
+    <ClCompile Include="source\physxextensions\src\ExtTriangleMeshExt.cpp" />
+    <ClCompile Include="source\physxextensions\src\omnipvd\ExtOmniPvdRegistrationData.cpp" />
+    <ClCompile Include="source\physxextensions\src\omnipvd\OmniPvdPxExtensionsSampler.cpp" />
+    <ClCompile Include="source\physxextensions\src\serialization\Binary\SnBinaryDeserialization.cpp" />
+    <ClCompile Include="source\physxextensions\src\serialization\Binary\SnBinarySerialization.cpp" />
+    <ClCompile Include="source\physxextensions\src\serialization\Binary\SnConvX.cpp" />
+    <ClCompile Include="source\physxextensions\src\serialization\Binary\SnConvX_Align.cpp" />
+    <ClCompile Include="source\physxextensions\src\serialization\Binary\SnConvX_Convert.cpp" />
+    <ClCompile Include="source\physxextensions\src\serialization\Binary\SnConvX_Error.cpp" />
+    <ClCompile Include="source\physxextensions\src\serialization\Binary\SnConvX_MetaData.cpp" />
+    <ClCompile Include="source\physxextensions\src\serialization\Binary\SnConvX_Output.cpp" />
+    <ClCompile Include="source\physxextensions\src\serialization\Binary\SnConvX_Union.cpp" />
+    <ClCompile Include="source\physxextensions\src\serialization\Binary\SnSerializationContext.cpp" />
+    <ClCompile Include="source\physxextensions\src\serialization\SnSerialUtils.cpp" />
+    <ClCompile Include="source\physxextensions\src\serialization\SnSerialization.cpp" />
+    <ClCompile Include="source\physxextensions\src\serialization\SnSerializationRegistry.cpp" />
+    <ClCompile Include="source\physxextensions\src\serialization\Xml\SnJointRepXSerializer.cpp" />
+    <ClCompile Include="source\physxextensions\src\serialization\Xml\SnRepXCoreSerializer.cpp" />
+    <ClCompile Include="source\physxextensions\src\serialization\Xml\SnRepXUpgrader.cpp" />
+    <ClCompile Include="source\physxextensions\src\serialization\Xml\SnXmlSerialization.cpp" />
+    <ClCompile Include="source\physxextensions\src\tet\ExtBVH.cpp" />
+    <ClCompile Include="source\physxextensions\src\tet\ExtDelaunayBoundaryInserter.cpp" />
+    <ClCompile Include="source\physxextensions\src\tet\ExtDelaunayTetrahedralizer.cpp" />
+    <ClCompile Include="source\physxextensions\src\tet\ExtFastWindingNumber.cpp" />
+    <ClCompile Include="source\physxextensions\src\tet\ExtInsideTester.cpp" />
+    <ClCompile Include="source\physxextensions\src\tet\ExtMeshSimplificator.cpp" />
+    <ClCompile Include="source\physxextensions\src\tet\ExtOctreeTetrahedralizer.cpp" />
+    <ClCompile Include="source\physxextensions\src\tet\ExtRemesher.cpp" />
+    <ClCompile Include="source\physxextensions\src\tet\ExtTetSplitting.cpp" />
+    <ClCompile Include="source\physxextensions\src\tet\ExtTetUnionFind.cpp" />
+    <ClCompile Include="source\physxextensions\src\tet\ExtUtilities.cpp" />
+    <ClCompile Include="source\physxextensions\src\tet\ExtVoxelTetrahedralizer.cpp" />
+    <ClCompile Include="source\physxmetadata\core\src\PxAutoGeneratedMetaDataObjects.cpp" />
+    <ClCompile Include="source\physxmetadata\core\src\PxMetaDataObjects.cpp" />
+    <ClCompile Include="source\physxmetadata\extensions\src\PxExtensionAutoGeneratedMetaDataObjects.cpp" />
+    <ClCompile Include="source\physxvehicle\src\PxVehicleComponents.cpp" />
+    <ClCompile Include="source\physxvehicle\src\PxVehicleDrive.cpp" />
+    <ClCompile Include="source\physxvehicle\src\PxVehicleDrive4W.cpp" />
+    <ClCompile Include="source\physxvehicle\src\PxVehicleDriveNW.cpp" />
+    <ClCompile Include="source\physxvehicle\src\PxVehicleDriveTank.cpp" />
+    <ClCompile Include="source\physxvehicle\src\PxVehicleMetaData.cpp" />
+    <ClCompile Include="source\physxvehicle\src\PxVehicleNoDrive.cpp" />
+    <ClCompile Include="source\physxvehicle\src\PxVehicleSDK.cpp" />
+    <ClCompile Include="source\physxvehicle\src\PxVehicleSerialization.cpp" />
+    <ClCompile Include="source\physxvehicle\src\PxVehicleSuspWheelTire4.cpp" />
+    <ClCompile Include="source\physxvehicle\src\PxVehicleTireFriction.cpp" />
+    <ClCompile Include="source\physxvehicle\src\PxVehicleUpdate.cpp" />
+    <ClCompile Include="source\physxvehicle\src\PxVehicleWheels.cpp" />
+    <ClCompile Include="source\physxvehicle\src\VehicleUtilControl.cpp" />
+    <ClCompile Include="source\physxvehicle\src\VehicleUtilSetup.cpp" />
+    <ClCompile Include="source\physxvehicle\src\VehicleUtilTelemetry.cpp" />
+    <ClCompile Include="source\physxvehicle\src\physxmetadata\src\PxVehicleAutoGeneratedMetaDataObjects.cpp" />
+    <ClCompile Include="source\physxvehicle\src\physxmetadata\src\PxVehicleMetaDataObjects.cpp" />
+    <ClCompile Include="source\physxvehicle2\src\commands\VhCommandHelpers.cpp" />
+    <ClCompile Include="source\physxvehicle2\src\drivetrain\VhDrivetrainFunctions.cpp" />
+    <ClCompile Include="source\physxvehicle2\src\drivetrain\VhDrivetrainHelpers.cpp" />
+    <ClCompile Include="source\physxvehicle2\src\physxActor\VhPhysXActorFunctions.cpp" />
+    <ClCompile Include="source\physxvehicle2\src\physxActor\VhPhysXActorHelpers.cpp" />
+    <ClCompile Include="source\physxvehicle2\src\physxConstraints\VhPhysXConstraintFunctions.cpp" />
+    <ClCompile Include="source\physxvehicle2\src\physxConstraints\VhPhysXConstraintHelpers.cpp" />
+    <ClCompile Include="source\physxvehicle2\src\physxRoadGeometry\VhPhysXRoadGeometryFunctions.cpp" />
+    <ClCompile Include="source\physxvehicle2\src\physxRoadGeometry\VhPhysXRoadGeometryHelpers.cpp" />
+    <ClCompile Include="source\physxvehicle2\src\pvd\VhPvdFunctions.cpp" />
+    <ClCompile Include="source\physxvehicle2\src\pvd\VhPvdHelpers.cpp" />
+    <ClCompile Include="source\physxvehicle2\src\pvd\VhPvdWriter.cpp" />
+    <ClCompile Include="source\physxvehicle2\src\rigidBody\VhRigidBodyFunctions.cpp" />
+    <ClCompile Include="source\physxvehicle2\src\steering\VhSteeringFunctions.cpp" />
+    <ClCompile Include="source\physxvehicle2\src\suspension\VhSuspensionFunctions.cpp" />
+    <ClCompile Include="source\physxvehicle2\src\suspension\VhSuspensionHelpers.cpp" />
+    <ClCompile Include="source\physxvehicle2\src\tire\VhTireFunctions.cpp" />
+    <ClCompile Include="source\physxvehicle2\src\tire\VhTireHelpers.cpp" />
+    <ClCompile Include="source\physxvehicle2\src\wheel\VhWheelFunctions.cpp" />
+    <ClCompile Include="source\pvd\src\PxProfileEventImpl.cpp" />
+    <ClCompile Include="source\pvd\src\PxPvd.cpp" />
+    <ClCompile Include="source\pvd\src\PxPvdDataStream.cpp" />
+    <ClCompile Include="source\pvd\src\PxPvdDefaultFileTransport.cpp" />
+    <ClCompile Include="source\pvd\src\PxPvdDefaultSocketTransport.cpp" />
+    <ClCompile Include="source\pvd\src\PxPvdImpl.cpp" />
+    <ClCompile Include="source\pvd\src\PxPvdMemClient.cpp" />
+    <ClCompile Include="source\pvd\src\PxPvdObjectModelMetaData.cpp" />
+    <ClCompile Include="source\pvd\src\PxPvdObjectRegistrar.cpp" />
+    <ClCompile Include="source\pvd\src\PxPvdProfileZoneClient.cpp" />
+    <ClCompile Include="source\pvd\src\PxPvdUserRenderer.cpp" />
+    <ClCompile Include="source\scenequery\src\SqCompoundPruner.cpp" />
+    <ClCompile Include="source\scenequery\src\SqCompoundPruningPool.cpp" />
+    <ClCompile Include="source\scenequery\src\SqFactory.cpp" />
+    <ClCompile Include="source\scenequery\src\SqManager.cpp" />
+    <ClCompile Include="source\scenequery\src\SqQuery.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScActorCore.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScActorSim.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScArticulationCore.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScArticulationJointCore.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScArticulationJointSim.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScArticulationSensorSim.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScArticulationSim.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScArticulationTendonCore.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScArticulationTendonJointCore.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScArticulationTendonSim.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScBodyCore.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScBodySim.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScBroadphase.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScCCD.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScConstraintBreakage.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScConstraintCore.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScConstraintInteraction.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScConstraintSim.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScElementInteractionMarker.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScElementSim.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScFEMClothCore.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScFEMClothShapeSim.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScFEMClothSim.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScFiltering.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScHairSystemCore.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScHairSystemShapeCore.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScHairSystemShapeSim.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScHairSystemSim.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScInteraction.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScIterators.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScKinematics.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScMetaData.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScNPhaseCore.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScParticleSystemCore.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScParticleSystemShapeCore.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScParticleSystemShapeSim.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScParticleSystemSim.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScPhysics.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScPipeline.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScRigidCore.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScRigidSim.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScScene.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScShapeCore.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScShapeInteraction.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScShapeSim.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScShapeSimBase.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScSimStats.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScSimulationController.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScSleep.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScSoftBodyCore.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScSoftBodyShapeSim.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScSoftBodySim.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScSqBoundsManager.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScStaticCore.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScTriggerInteraction.cpp" />
+    <ClCompile Include="source\simulationcontroller\src\ScVisualize.cpp" />
+    <ClCompile Include="source\task\src\TaskManager.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

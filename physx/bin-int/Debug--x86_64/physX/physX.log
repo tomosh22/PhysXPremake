@@ -1,0 +1,1237 @@
+﻿  VoxelMap.cpp
+  CmCollection.cpp
+  CmPtrTable.cpp
+  CmRadixSort.cpp
+  CmSerialize.cpp
+  CmVisualization.cpp
+  CmWindowsDelayLoadHook.cpp
+  CmWindowsModuleUpdateLoader.cpp
+  PsFastXml.cpp
+  FdAllocator.cpp
+  FdAssert.cpp
+  FdFoundation.cpp
+  FdMathUtils.cpp
+  FdString.cpp
+  FdTempAllocator.cpp
+  FdWindowsAtomic.cpp
+  FdWindowsFPU.cpp
+  FdWindowsMutex.cpp
+  FdWindowsPrintString.cpp
+  FdWindowsSList.cpp
+  Generating Code...
+  Compiling...
+  FdWindowsSocket.cpp
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\foundation\windows\FdWindowsSocket.cpp(131,7): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\foundation\windows\FdWindowsSocket.cpp(135,14): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\foundation\windows\FdWindowsSocket.cpp(136,8): warning C4996: 'gethostbyaddr': Use getnameinfo() or GetNameInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\foundation\windows\FdWindowsSocket.cpp(231,3): warning C4996: 'WSASendDisconnect': Use WSASend() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  FdWindowsSync.cpp
+  FdWindowsThread.cpp
+  FdWindowsTime.cpp
+  GuAABBPruner.cpp
+  GuAABBTree.cpp
+  GuAABBTreeUpdateMap.cpp
+  GuActorShapeMap.cpp
+  GuBVH.cpp
+  GuBounds.cpp
+  GuBox.cpp
+  GuBucketPruner.cpp
+  GuCCTSweepTests.cpp
+  GuCapsule.cpp
+  GuCookingSDF.cpp
+  GuExtendedBucketPruner.cpp
+  GuFactory.cpp
+  GuGeometryQuery.cpp
+  GuGjkQuery.cpp
+  GuIncrementalAABBPruner.cpp
+  Generating Code...
+  Compiling...
+  GuIncrementalAABBPrunerCore.cpp
+  GuIncrementalAABBTree.cpp
+  GuInternal.cpp
+  GuMTD.cpp
+  GuMaverickNode.cpp
+  GuMeshFactory.cpp
+  GuMetaData.cpp
+  GuOverlapTests.cpp
+  GuPruningPool.cpp
+  GuQuerySystem.cpp
+  GuRaycastTests.cpp
+  GuSAH.cpp
+  GuSDF.cpp
+  GuSecondaryPruner.cpp
+  GuSqInternal.cpp
+  GuSweepMTD.cpp
+  GuSweepSharedTests.cpp
+  GuSweepTests.cpp
+  GuWindingNumber.cpp
+  GuCCDSweepConvexMesh.cpp
+  Generating Code...
+  Compiling...
+  GuCCDSweepPrimitives.cpp
+  GuAdjacencies.cpp
+  GuBarycentricCoordinates.cpp
+  GuEdgeList.cpp
+  GuMeshAnalysis.cpp
+  GuMeshCleaner.cpp
+  GuQuantizer.cpp
+  GuSeparatingAxes.cpp
+  GuVertexReducer.cpp
+  GuContactBoxBox.cpp
+  GuContactCapsuleBox.cpp
+  GuContactCapsuleCapsule.cpp
+  GuContactCapsuleConvex.cpp
+  GuContactCapsuleMesh.cpp
+  GuContactConvexConvex.cpp
+  GuContactConvexMesh.cpp
+  GuContactCustomGeometry.cpp
+  GuContactPlaneBox.cpp
+  GuContactPlaneCapsule.cpp
+  GuContactPlaneConvex.cpp
+  Generating Code...
+  Compiling...
+  GuContactPolygonPolygon.cpp
+  GuContactSphereBox.cpp
+  GuContactSphereCapsule.cpp
+  GuContactSphereMesh.cpp
+  GuContactSpherePlane.cpp
+  GuContactSphereSphere.cpp
+  GuFeatureCode.cpp
+  GuBigConvexData.cpp
+  GuConvexHelper.cpp
+  GuConvexMesh.cpp
+  GuConvexSupportTable.cpp
+  GuConvexUtilsInternal.cpp
+  GuHillClimbing.cpp
+  GuShapeConvex.cpp
+  GuCookingBVH.cpp
+  GuCookingBigConvexDataBuilder.cpp
+  GuCookingConvexHullBuilder.cpp
+  GuCookingConvexHullLib.cpp
+  GuCookingConvexHullUtils.cpp
+  GuCookingConvexMesh.cpp
+  Generating Code...
+  Compiling...
+  GuCookingConvexMeshBuilder.cpp
+  GuCookingConvexPolygonsBuilder.cpp
+  GuCookingHF.cpp
+  GuCookingQuickHullConvexHullLib.cpp
+  GuCookingTetrahedronMesh.cpp
+  GuCookingTriangleMesh.cpp
+  GuCookingVolumeIntegration.cpp
+  GuRTreeCooking.cpp
+  GuDistancePointBox.cpp
+  GuDistancePointTetrahedron.cpp
+  GuDistancePointTriangle.cpp
+  GuDistanceSegmentBox.cpp
+  GuDistanceSegmentSegment.cpp
+  GuDistanceSegmentTriangle.cpp
+  GuDistanceTriangleTriangle.cpp
+  GuEPA.cpp
+  GuGJKSimplex.cpp
+  GuGJKTest.cpp
+  GuHeightField.cpp
+  GuHeightFieldUtil.cpp
+  Generating Code...
+  Compiling...
+  GuOverlapTestsHF.cpp
+  GuSweepsHF.cpp
+  GuIntersectionBoxBox.cpp
+  GuIntersectionCapsuleTriangle.cpp
+  GuIntersectionEdgeEdge.cpp
+  GuIntersectionRayBox.cpp
+  GuIntersectionRayCapsule.cpp
+  GuIntersectionRaySphere.cpp
+  GuIntersectionSphereBox.cpp
+  GuIntersectionTetrahedronBox.cpp
+  GuIntersectionTriangleBox.cpp
+  GuIntersectionTriangleTriangle.cpp
+  GuBV32.cpp
+  GuBV32Build.cpp
+  GuBV4.cpp
+  GuBV4Build.cpp
+  GuBV4_AABBSweep.cpp
+  GuBV4_BoxOverlap.cpp
+  GuBV4_CapsuleSweep.cpp
+  GuBV4_CapsuleSweepAA.cpp
+  Generating Code...
+  Compiling...
+  GuBV4_MeshMeshOverlap.cpp
+  GuBV4_OBBSweep.cpp
+  GuBV4_Raycast.cpp
+  GuBV4_SphereOverlap.cpp
+  GuBV4_SphereSweep.cpp
+  GuMeshQuery.cpp
+  GuMidphaseBV4.cpp
+  GuMidphaseRTree.cpp
+  GuOverlapTestsMesh.cpp
+  GuRTree.cpp
+  GuRTreeQueries.cpp
+  GuSweepsMesh.cpp
+  GuTetrahedronMesh.cpp
+  GuTetrahedronMeshUtils.cpp
+  GuTriangleMesh.cpp
+  GuTriangleMeshBV4.cpp
+  GuTriangleMeshRTree.cpp
+  GuPCMContactBoxBox.cpp
+  GuPCMContactBoxConvex.cpp
+  GuPCMContactCapsuleBox.cpp
+  Generating Code...
+  Compiling...
+  GuPCMContactCapsuleCapsule.cpp
+  GuPCMContactCapsuleConvex.cpp
+  GuPCMContactCapsuleHeightField.cpp
+  GuPCMContactCapsuleMesh.cpp
+  GuPCMContactConvexCommon.cpp
+  GuPCMContactConvexConvex.cpp
+  GuPCMContactConvexHeightField.cpp
+  GuPCMContactConvexMesh.cpp
+  GuPCMContactCustomGeometry.cpp
+  GuPCMContactGenBoxConvex.cpp
+  GuPCMContactGenSphereCapsule.cpp
+  GuPCMContactGenUtil.cpp
+  GuPCMContactPlaneBox.cpp
+  GuPCMContactPlaneCapsule.cpp
+  GuPCMContactPlaneConvex.cpp
+  GuPCMContactSphereBox.cpp
+  GuPCMContactSphereCapsule.cpp
+  GuPCMContactSphereConvex.cpp
+  GuPCMContactSphereHeightField.cpp
+  GuPCMContactSphereMesh.cpp
+  Generating Code...
+  Compiling...
+  GuPCMContactSpherePlane.cpp
+  GuPCMContactSphereSphere.cpp
+  GuPCMShapeConvex.cpp
+  GuPCMTriangleContactGen.cpp
+  GuPersistentContactManifold.cpp
+  GuSweepBoxBox.cpp
+  GuSweepBoxSphere.cpp
+  GuSweepBoxTriangle_FeatureBased.cpp
+  GuSweepBoxTriangle_SAT.cpp
+  GuSweepCapsuleBox.cpp
+  GuSweepCapsuleCapsule.cpp
+  GuSweepCapsuleTriangle.cpp
+  GuSweepSphereCapsule.cpp
+  GuSweepSphereSphere.cpp
+  GuSweepSphereTriangle.cpp
+  GuSweepTriangleUtils.cpp
+  NpImmediateMode.cpp
+  px_globals.cpp
+  PxcContactCache.cpp
+  PxcContactMethodImpl.cpp
+  Generating Code...
+  Compiling...
+  PxcMaterialMethodImpl.cpp
+  PxcNpBatch.cpp
+  PxcNpCacheStreamPair.cpp
+  PxcNpContactPrepShared.cpp
+  PxcNpMemBlockPool.cpp
+  PxcNpThreadContext.cpp
+  PxsCCD.cpp
+  PxsContactManager.cpp
+  PxsContext.cpp
+  PxsDefaultMemoryManager.cpp
+  PxsIslandSim.cpp
+  PxsNphaseImplementationContext.cpp
+  PxsSimpleIslandManager.cpp
+  BpAABBManager.cpp
+  BpAABBManagerBase.cpp
+  BpBroadPhase.cpp
+  BpBroadPhaseABP.cpp
+  BpBroadPhaseMBP.cpp
+  BpBroadPhaseSap.cpp
+  BpBroadPhaseSapAux.cpp
+  Generating Code...
+  Compiling...
+  BpBroadPhaseShared.cpp
+  BpBroadPhaseUpdate.cpp
+  BpFiltering.cpp
+  DyArticulationContactPrep.cpp
+  DyArticulationContactPrepPF.cpp
+  DyConstraintPartition.cpp
+  DyConstraintSetup.cpp
+  DyConstraintSetupBlock.cpp
+  DyContactPrep.cpp
+  DyContactPrep4.cpp
+  DyContactPrep4PF.cpp
+  DyContactPrepPF.cpp
+  DyDynamics.cpp
+  DyFeatherstoneArticulation.cpp
+  DyFeatherstoneForwardDynamic.cpp
+  DyFeatherstoneInverseDynamic.cpp
+  DyFrictionCorrelation.cpp
+  DyRigidBodyToSolverBody.cpp
+  DySleep.cpp
+  DySolverConstraints.cpp
+  Generating Code...
+  Compiling...
+  DySolverConstraintsBlock.cpp
+  DySolverControl.cpp
+  DySolverControlPF.cpp
+  DySolverPFConstraints.cpp
+  DySolverPFConstraintsBlock.cpp
+  DyTGSContactPrep.cpp
+  DyTGSContactPrepBlock.cpp
+  DyTGSDynamics.cpp
+  DyThreadContext.cpp
+  DyThresholdTable.cpp
+  NpActor.cpp
+  NpAggregate.cpp
+  NpArticulationJointReducedCoordinate.cpp
+  NpArticulationLink.cpp
+  NpArticulationReducedCoordinate.cpp
+  NpArticulationSensor.cpp
+  NpArticulationTendon.cpp
+  NpBounds.cpp
+  NpCheck.cpp
+  NpConstraint.cpp
+  Generating Code...
+  Compiling...
+  NpDebugViz.cpp
+  NpFEMCloth.cpp
+  NpFEMClothMaterial.cpp
+  NpFEMSoftBodyMaterial.cpp
+  NpFLIPMaterial.cpp
+  NpFactory.cpp
+  NpHairSystem.cpp
+  NpMPMMaterial.cpp
+  NpMaterial.cpp
+  NpMetaData.cpp
+  NpPBDMaterial.cpp
+  NpParticleSystem.cpp
+  NpPhysics.cpp
+  NpPruningStructure.cpp
+  NpPvdSceneClient.cpp
+  NpPvdSceneQueryCollector.cpp
+  NpRigidDynamic.cpp
+  NpRigidStatic.cpp
+  NpScene.cpp
+  NpSceneFetchResults.cpp
+  Generating Code...
+  Compiling...
+  NpSceneQueries.cpp
+  NpSerializerAdapter.cpp
+  NpShape.cpp
+  NpShapeManager.cpp
+  NpSoftBody.cpp
+  PvdMetaDataPvdBinding.cpp
+  PvdPhysicsClient.cpp
+  PhysXIndicatorLinux.cpp
+  PhysXIndicatorWindows.cpp
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physx\src\device\windows\PhysXIndicatorWindows.cpp(69,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physx\src\device\windows\PhysXIndicatorWindows.cpp(71,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  PxGpu.cpp
+  PxPhysXGpuModuleLoader.cpp
+  NpOmniPvd.cpp
+  NpOmniPvdRegistrationData.cpp
+  OmniPvdChunkAlloc.cpp
+  OmniPvdPxSampler.cpp
+  NpWindowsDelayLoadHook.cpp
+  CctBoxController.cpp
+  CctCapsuleController.cpp
+  CctCharacterController.cpp
+  CctCharacterControllerCallbacks.cpp
+  Generating Code...
+  Compiling...
+  CctCharacterControllerManager.cpp
+  CctController.cpp
+  CctObstacleContext.cpp
+  CctSweptBox.cpp
+  CctSweptCapsule.cpp
+  CctSweptVolume.cpp
+  Cooking.cpp
+  WindowsCookingDelayLoadHook.cpp
+  ExtBroadPhase.cpp
+  ExtCollection.cpp
+  ExtContactJoint.cpp
+  ExtConvexMeshExt.cpp
+  ExtCpuWorkerThread.cpp
+  ExtCustomGeometryExt.cpp
+  ExtCustomSceneQuerySystem.cpp
+  ExtD6Joint.cpp
+  ExtD6JointCreate.cpp
+  ExtDefaultCpuDispatcher.cpp
+  ExtDefaultErrorCallback.cpp
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\ExtDefaultErrorCallback.cpp(89,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ExtDefaultSimulationFilterShader.cpp
+  Generating Code...
+  Compiling...
+  ExtDefaultStreams.cpp
+  ExtDistanceJoint.cpp
+  ExtExtensions.cpp
+  ExtFixedJoint.cpp
+  ExtGearJoint.cpp
+  ExtGjkQueryExt.cpp
+  ExtJoint.cpp
+  ExtMetaData.cpp
+  ExtParticleClothCooker.cpp
+  ExtParticleExt.cpp
+  ExtPrismaticJoint.cpp
+  ExtPvd.cpp
+  ExtPxStringTable.cpp
+  ExtRackAndPinionJoint.cpp
+  ExtRaycastCCD.cpp
+  ExtRemeshingExt.cpp
+  ExtRevoluteJoint.cpp
+  ExtRigidActorExt.cpp
+  ExtRigidBodyExt.cpp
+  ExtSampling.cpp
+  Generating Code...
+  Compiling...
+  ExtSceneQueryExt.cpp
+  ExtSceneQuerySystem.cpp
+  ExtSimpleFactory.cpp
+  ExtSmoothNormals.cpp
+  ExtSoftBodyExt.cpp
+  ExtSphericalJoint.cpp
+  ExtSqManager.cpp
+  ExtSqQuery.cpp
+  ExtTetMakerExt.cpp
+  ExtTetrahedronMeshExt.cpp
+  ExtTriangleMeshExt.cpp
+  ExtOmniPvdRegistrationData.cpp
+  OmniPvdPxExtensionsSampler.cpp
+  SnBinaryDeserialization.cpp
+  SnBinarySerialization.cpp
+  SnConvX.cpp
+  SnConvX_Align.cpp
+  SnConvX_Convert.cpp
+  SnConvX_Error.cpp
+  SnConvX_MetaData.cpp
+  Generating Code...
+  Compiling...
+  SnConvX_Output.cpp
+  SnConvX_Union.cpp
+  SnSerializationContext.cpp
+  SnSerialUtils.cpp
+  SnSerialization.cpp
+  SnSerializationRegistry.cpp
+  SnJointRepXSerializer.cpp
+  SnRepXCoreSerializer.cpp
+  SnRepXUpgrader.cpp
+  SnXmlSerialization.cpp
+  ExtBVH.cpp
+  ExtDelaunayBoundaryInserter.cpp
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\tet\ExtDelaunayBoundaryInserter.cpp(1094,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\tet\ExtDelaunayBoundaryInserter.cpp(1119,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\tet\ExtDelaunayBoundaryInserter.cpp(1141,8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ExtDelaunayTetrahedralizer.cpp
+  ExtFastWindingNumber.cpp
+  ExtInsideTester.cpp
+  ExtMeshSimplificator.cpp
+  ExtOctreeTetrahedralizer.cpp
+  ExtRemesher.cpp
+  ExtTetSplitting.cpp
+  ExtTetUnionFind.cpp
+  Generating Code...
+  Compiling...
+  ExtUtilities.cpp
+  ExtVoxelTetrahedralizer.cpp
+  PxAutoGeneratedMetaDataObjects.cpp
+  PxMetaDataObjects.cpp
+  PxExtensionAutoGeneratedMetaDataObjects.cpp
+  PxVehicleComponents.cpp
+  PxVehicleDrive.cpp
+  PxVehicleDrive4W.cpp
+  PxVehicleDriveNW.cpp
+  PxVehicleDriveTank.cpp
+  PxVehicleMetaData.cpp
+  PxVehicleNoDrive.cpp
+  PxVehicleSDK.cpp
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(526,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(240,12): message : see reference to function template instantiation 'void physx::Sn::RepXVisitorWriterBase<TObjType>::extendedIndexedProperty<physx::Vd::PxPvdExtendedIndexedPropertyAccessor<757,TObjType,TIndexType,TPropertyType>,const TInfoType>(physx::PxU32 *,const TAccessorType &,TInfoType &)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleNoDrive,
+              TIndexType=const physx::PxU32,
+              TPropertyType=physx::PxReal,
+              TInfoType=physx::PxUnknownClassInfo,
+              TAccessorType=physx::Vd::PxPvdExtendedIndexedPropertyAccessor<757,physx::PxVehicleNoDrive,const physx::PxU32,physx::PxReal>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(263,3): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::handleExtendedIndexProperty<757,physx::PxVehicleNoDrive,physx::PxReal,const physx::PxU32,physx::PxUnknownClassInfo>(physx::PxU32,const physx::PxExtendedIndexedPropertyInfo<757,physx::PxVehicleNoDrive,const physx::PxU32,physx::PxReal> &,const TInfoType &)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorWriter<physx::PxVehicleNoDrive>,
+              TInfoType=physx::PxUnknownClassInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\RepXMetaDataPropertyVisitor.h(116,13): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::operator ()<757,physx::PxVehicleNoDrive,const physx::PxU32,physx::PxReal>(const physx::PxExtendedIndexedPropertyInfo<757,physx::PxVehicleNoDrive,const physx::PxU32,physx::PxReal> &,physx::PxU32)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorWriter<physx::PxVehicleNoDrive>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\physxmetadata\include\PxVehicleAutoGeneratedMetaDataObjects.h(1795,4): message : see reference to function template instantiation 'void physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<TObjType>>::operator ()<757,physx::PxVehicleNoDrive,const physx::PxU32,physx::PxReal>(const physx::PxExtendedIndexedPropertyInfo<757,TObjType,const physx::PxU32,physx::PxReal> &,physx::PxU32)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleNoDrive
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(774,12): message : see reference to function template instantiation 'physx::PxU32 physx::PxVehicleNoDriveGeneratedInfo::visitInstanceProperties<physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<TObjType>>>(TOperator,physx::PxU32) const' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleNoDrive,
+              TOperator=physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<physx::PxVehicleNoDrive>>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(791,3): message : see reference to function template instantiation 'void physx::Sn::writeAllProperties<TObjType>(physx::Sn::TNameStack &,const TObjType *,physx::XmlWriter &,physx::MemoryBuffer &,physx::PxCollection &)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleNoDrive
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnRepXSerializerImpl.h(78,4): message : see reference to function template instantiation 'void physx::Sn::writeAllProperties<TLiveType>(const TObjType *,physx::XmlWriter &,physx::MemoryBuffer &,physx::PxCollection &)' being compiled
+          with
+          [
+              TLiveType=physx::PxVehicleNoDrive,
+              TObjType=physx::PxVehicleNoDrive
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnRepXSerializerImpl.h(76,16): message : while compiling class template member function 'void physx::RepXSerializerImpl<TVehicleType>::objectToFileImpl(const TLiveType *,physx::PxCollection *,physx::XmlWriter &,physx::MemoryBuffer &,physx::PxRepXInstantiationArgs &)'
+          with
+          [
+              TVehicleType=physx::PxVehicleNoDrive,
+              TLiveType=physx::PxVehicleNoDrive
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\PxVehicleSerialization.h(50,42): message : see reference to class template instantiation 'physx::RepXSerializerImpl<TVehicleType>' being compiled
+          with
+          [
+              TVehicleType=physx::PxVehicleNoDrive
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\PxVehicleSerialization.h(63,66): message : see reference to class template instantiation 'physx::PxVehicleRepXSerializer<physx::PxVehicleNoDrive>' being compiled
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(316,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(348,3): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::extendedDualIndexedProperty<666,physx::PxVehicleTireData,physx::PxU32,physx::PxU32,physx::PxReal>(physx::PxU32,const physx::PxExtendedDualIndexedPropertyInfo<666,physx::PxVehicleTireData,physx::PxU32,physx::PxU32,physx::PxReal> &,physx::PxU32,physx::PxU32)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorReader<TPropertyType>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\RepXMetaDataPropertyVisitor.h(128,4): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::operator ()<666,physx::PxVehicleTireData,physx::PxU32,physx::PxU32,physx::PxReal>(const physx::PxExtendedDualIndexedPropertyInfo<666,physx::PxVehicleTireData,physx::PxU32,physx::PxU32,physx::PxReal> &,physx::PxU32)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorReader<TPropertyType>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\physxmetadata\include\PxVehicleAutoGeneratedMetaDataObjects.h(950,4): message : see reference to function template instantiation 'void physx::RepXPropertyFilter<physx::Sn::RepXVisitorReader<TObjType>>::operator ()<666,physx::PxVehicleTireData,physx::PxU32,physx::PxU32,physx::PxReal>(const physx::PxExtendedDualIndexedPropertyInfo<666,TObjType,physx::PxU32,physx::PxU32,physx::PxReal> &,physx::PxU32)' being compiled
+          with
+          [
+              TObjType=TPropertyType
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorReader.h(862,7): message : see reference to function template instantiation 'physx::PxU32 physx::PxVehicleTireDataGeneratedInfo::visitInstanceProperties<physx::RepXPropertyFilter<physx::Sn::RepXVisitorReader<TObjType>>>(TOperator,physx::PxU32) const' being compiled
+          with
+          [
+              TObjType=TPropertyType,
+              TOperator=physx::RepXPropertyFilter<physx::Sn::RepXVisitorReader<TPropertyType>>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorReader.h(887,7): message : see reference to function template instantiation 'bool physx::Sn::readAllProperties<TObjType,const TInfoType>(physx::PxRepXInstantiationArgs,physx::Sn::TReaderNameStack &,physx::profile::PxProfileArray<physx::PxU32> &,physx::XmlReader &,TObjType *,physx::XmlMemoryAllocator &,physx::PxCollection &,TInfoType &)' being compiled
+          with
+          [
+              TObjType=TPropertyType,
+              TInfoType=physx::PxVehicleTireDataGeneratedInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorReader.h(628,6): message : see reference to function template instantiation 'void physx::Sn::readComplexObj<TPropertyType,physx::Sn::RepXVisitorReaderBase<TObjType>,const TInfoType>(TReaderType &,physx::PxVehicleTireData *,const TInfoType &)' being compiled
+          with
+          [
+              TObjType=TPropertyType,
+              TInfoType=physx::PxVehicleTireDataGeneratedInfo,
+              TReaderType=physx::Sn::RepXVisitorReaderBase<TPropertyType>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(240,12): message : see reference to function template instantiation 'void physx::Sn::RepXVisitorReaderBase<TObjType>::extendedIndexedProperty<physx::Vd::PxPvdExtendedIndexedPropertyAccessor<676,TObjType,TIndexType,TPropertyType>,const TInfoType>(physx::PxU32 *,const TAccessorType &,TInfoType &)' being compiled
+          with
+          [
+              TObjType=TPropertyType,
+              TIndexType=const physx::PxU32,
+              TPropertyType=physx::PxVehicleTireData,
+              TInfoType=physx::PxVehicleTireDataGeneratedInfo,
+              TAccessorType=physx::Vd::PxPvdExtendedIndexedPropertyAccessor<676,physx::PxVehicleWheelsSimData,const physx::PxU32,physx::PxVehicleTireData>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(263,3): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::handleExtendedIndexProperty<676,physx::PxVehicleWheelsSimData,physx::PxVehicleTireData,const physx::PxU32,physx::PxVehicleTireDataGeneratedInfo>(physx::PxU32,const physx::PxExtendedIndexedPropertyInfo<676,physx::PxVehicleWheelsSimData,const physx::PxU32,physx::PxVehicleTireData> &,const TInfoType &)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorReader<TPropertyType>,
+              TInfoType=physx::PxVehicleTireDataGeneratedInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\RepXMetaDataPropertyVisitor.h(116,13): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::operator ()<676,physx::PxVehicleWheelsSimData,const physx::PxU32,physx::PxVehicleTireData>(const physx::PxExtendedIndexedPropertyInfo<676,physx::PxVehicleWheelsSimData,const physx::PxU32,physx::PxVehicleTireData> &,physx::PxU32)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorReader<TPropertyType>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\physxmetadata\include\PxVehicleAutoGeneratedMetaDataObjects.h(1089,4): message : see reference to function template instantiation 'void physx::RepXPropertyFilter<physx::Sn::RepXVisitorReader<TObjType>>::operator ()<676,physx::PxVehicleWheelsSimData,const physx::PxU32,physx::PxVehicleTireData>(const physx::PxExtendedIndexedPropertyInfo<676,TObjType,const physx::PxU32,physx::PxVehicleTireData> &,physx::PxU32)' being compiled
+          with
+          [
+              TObjType=TPropertyType
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorReader.h(862,7): message : see reference to function template instantiation 'physx::PxU32 physx::PxVehicleWheelsSimDataGeneratedInfo::visitInstanceProperties<physx::RepXPropertyFilter<physx::Sn::RepXVisitorReader<TObjType>>>(TOperator,physx::PxU32) const' being compiled
+          with
+          [
+              TObjType=TPropertyType,
+              TOperator=physx::RepXPropertyFilter<physx::Sn::RepXVisitorReader<TPropertyType>>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorReader.h(887,7): message : see reference to function template instantiation 'bool physx::Sn::readAllProperties<TObjType,const TInfoType>(physx::PxRepXInstantiationArgs,physx::Sn::TReaderNameStack &,physx::profile::PxProfileArray<physx::PxU32> &,physx::XmlReader &,TObjType *,physx::XmlMemoryAllocator &,physx::PxCollection &,TInfoType &)' being compiled
+          with
+          [
+              TObjType=TPropertyType,
+              TInfoType=physx::PxVehicleWheelsSimDataGeneratedInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorReader.h(587,5): message : see reference to function template instantiation 'void physx::Sn::readComplexObj<TPropertyType,physx::Sn::RepXVisitorReaderBase<TObjType>,const TInfoType>(TReaderType &,physx::PxVehicleWheelsSimData *,const TInfoType &)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleNoDrive,
+              TInfoType=physx::PxVehicleWheelsSimDataGeneratedInfo,
+              TReaderType=physx::Sn::RepXVisitorReaderBase<physx::PxVehicleNoDrive>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(91,12): message : see reference to function template instantiation 'void physx::Sn::RepXVisitorReaderBase<TObjType>::complexProperty<TAccessorType,const TInfoType>(physx::PxU32 *,const TAccessorType &,TInfoType &)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleNoDrive,
+              TAccessorType=physx::PxRepXPropertyAccessor<703,physx::PxVehicleWheels,physx::PxVehicleWheelsSimData,physx::PxVehicleWheelsSimData>,
+              TInfoType=physx::PxVehicleWheelsSimDataGeneratedInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(118,3): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::dispatchAccessor<703,TAccessorType,physx::PxVehicleWheelsSimDataGeneratedInfo>(physx::PxU32,const TAccessorType &,bool,const TInfoType *,bool)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorReader<physx::PxVehicleNoDrive>,
+              TAccessorType=physx::PxRepXPropertyAccessor<703,physx::PxVehicleWheels,physx::PxVehicleWheelsSimData,physx::PxVehicleWheelsSimData>,
+              TInfoType=physx::PxVehicleWheelsSimDataGeneratedInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(130,3): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::handleAccessor<703,TAccessorType>(physx::PxU32,const TAccessorType &)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorReader<physx::PxVehicleNoDrive>,
+              TAccessorType=physx::PxRepXPropertyAccessor<703,physx::PxVehicleWheels,physx::PxVehicleWheelsSimData,physx::PxVehicleWheelsSimData>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\RepXMetaDataPropertyVisitor.h(148,11): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::handleAccessor<703,physx::PxRepXPropertyAccessor<703,TObjType,TSetPropType,TPropertyType>>(const TAccessorType &)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorReader<physx::PxVehicleNoDrive>,
+              TObjType=physx::PxVehicleWheels,
+              TSetPropType=physx::PxVehicleWheelsSimData,
+              TPropertyType=physx::PxVehicleWheelsSimData,
+              TAccessorType=physx::PxRepXPropertyAccessor<703,physx::PxVehicleWheels,physx::PxVehicleWheelsSimData,physx::PxVehicleWheelsSimData>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\physxmetadata\include\PxVehicleAutoGeneratedMetaDataObjects.h(1222,4): message : see reference to function template instantiation 'void physx::RepXPropertyFilter<physx::Sn::RepXVisitorReader<TObjType>>::operator ()<703,physx::PxVehicleWheels,physx::PxVehicleWheelsSimData,physx::PxVehicleWheelsSimData>(const physx::PxPropertyInfo<703,physx::PxVehicleWheels,physx::PxVehicleWheelsSimData,physx::PxVehicleWheelsSimData> &,physx::PxU32)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleNoDrive
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\physxmetadata\include\PxVehicleAutoGeneratedMetaDataObjects.h(1784,49): message : see reference to function template instantiation 'physx::PxU32 physx::PxVehicleWheelsGeneratedInfo::visitInstanceProperties<TOperator>(TOperator,physx::PxU32) const' being compiled
+          with
+          [
+              TOperator=physx::RepXPropertyFilter<physx::Sn::RepXVisitorReader<physx::PxVehicleNoDrive>>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorReader.h(861,7): message : see reference to function template instantiation 'physx::PxU32 physx::PxVehicleNoDriveGeneratedInfo::visitBaseProperties<physx::RepXPropertyFilter<physx::Sn::RepXVisitorReader<TObjType>>>(TOperator,physx::PxU32) const' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleNoDrive,
+              TOperator=physx::RepXPropertyFilter<physx::Sn::RepXVisitorReader<physx::PxVehicleNoDrive>>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorReader.h(874,10): message : see reference to function template instantiation 'bool physx::Sn::readAllProperties<TObjType,physx::PxVehicleNoDriveGeneratedInfo>(physx::PxRepXInstantiationArgs,physx::Sn::TReaderNameStack &,physx::profile::PxProfileArray<physx::PxU32> &,physx::XmlReader &,TObjType *,physx::XmlMemoryAllocator &,physx::PxCollection &,TInfoType &)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleNoDrive,
+              TInfoType=physx::PxVehicleNoDriveGeneratedInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnRepXSerializerImpl.h(83,11): message : see reference to function template instantiation 'bool physx::Sn::readAllProperties<TLiveType>(physx::PxRepXInstantiationArgs,physx::XmlReader &,TObjType *,physx::XmlMemoryAllocator &,physx::PxCollection &)' being compiled
+          with
+          [
+              TLiveType=physx::PxVehicleNoDrive,
+              TObjType=physx::PxVehicleNoDrive
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnRepXSerializerImpl.h(81,16): message : while compiling class template member function 'bool physx::RepXSerializerImpl<TVehicleType>::fileToObjectImpl(TLiveType *,physx::XmlReader &,physx::XmlMemoryAllocator &,physx::PxRepXInstantiationArgs &,physx::PxCollection *)'
+          with
+          [
+              TVehicleType=physx::PxVehicleNoDrive,
+              TLiveType=physx::PxVehicleNoDrive
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(322,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(546,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(255,12): message : see reference to function template instantiation 'void physx::Sn::RepXVisitorWriterBase<TObjType>::PxFixedSizeLookupTableProperty<physx::Vd::PxPvdFixedSizeLookupTablePropertyAccessor<577,TObjType,TIndexType,TPropertyType>,const TInfoType>(physx::PxU32 *,TAccessorType &,TInfoType &)' being compiled
+          with
+          [
+              TObjType=TPropertyType,
+              TIndexType=physx::PxU32,
+              TPropertyType=physx::PxReal,
+              TInfoType=physx::PxUnknownClassInfo,
+              TAccessorType=physx::Vd::PxPvdFixedSizeLookupTablePropertyAccessor<577,physx::PxVehicleEngineData,physx::PxU32,physx::PxReal>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(269,3): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::handlePxFixedSizeLookupTableProperty<577,physx::PxVehicleEngineData,physx::PxReal,physx::PxU32,physx::PxUnknownClassInfo>(const physx::PxU32,const physx::PxFixedSizeLookupTablePropertyInfo<577,physx::PxVehicleEngineData,physx::PxU32,physx::PxReal> &,const TInfoType &)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorWriter<TPropertyType>,
+              TInfoType=physx::PxUnknownClassInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\RepXMetaDataPropertyVisitor.h(110,4): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::operator ()<577,physx::PxVehicleEngineData,physx::PxU32,physx::PxReal>(const physx::PxFixedSizeLookupTablePropertyInfo<577,physx::PxVehicleEngineData,physx::PxU32,physx::PxReal> &,physx::PxU32)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorWriter<TPropertyType>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\physxmetadata\include\PxVehicleAutoGeneratedMetaDataObjects.h(162,4): message : see reference to function template instantiation 'void physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<TObjType>>::operator ()<577,physx::PxVehicleEngineData,physx::PxU32,physx::PxReal>(const physx::PxFixedSizeLookupTablePropertyInfo<577,TObjType,physx::PxU32,physx::PxReal> &,physx::PxU32)' being compiled
+          with
+          [
+              TObjType=TPropertyType
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(774,12): message : see reference to function template instantiation 'physx::PxU32 physx::PxVehicleEngineDataGeneratedInfo::visitInstanceProperties<physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<TObjType>>>(TOperator,physx::PxU32) const' being compiled
+          with
+          [
+              TObjType=TPropertyType,
+              TOperator=physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<TPropertyType>>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(797,3): message : see reference to function template instantiation 'void physx::Sn::writeAllProperties<TObjType>(physx::Sn::TNameStack &,const TObjType *,physx::XmlWriter &,physx::MemoryBuffer &,physx::PxCollection &)' being compiled
+          with
+          [
+              TObjType=TPropertyType
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(490,4): message : see reference to function template instantiation 'void physx::Sn::handleComplexObj<TPropertyType,physx::Sn::RepXVisitorWriterBase<TObjType>,const TInfoType>(TWriterType &,const physx::PxVehicleEngineData *,const TInfoType &)' being compiled
+          with
+          [
+              TObjType=TPropertyType,
+              TInfoType=physx::PxVehicleEngineDataGeneratedInfo,
+              TWriterType=physx::Sn::RepXVisitorWriterBase<TPropertyType>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(91,12): message : see reference to function template instantiation 'void physx::Sn::RepXVisitorWriterBase<TObjType>::complexProperty<TAccessorType,const TInfoType>(physx::PxU32 *,const TAccessorType &,TInfoType &)' being compiled
+          with
+          [
+              TObjType=TPropertyType,
+              TAccessorType=physx::PxRepXPropertyAccessor<727,physx::PxVehicleDriveSimData,const physx::PxVehicleEngineData &,physx::PxVehicleEngineData>,
+              TInfoType=physx::PxVehicleEngineDataGeneratedInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(118,3): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::dispatchAccessor<727,TAccessorType,physx::PxVehicleEngineDataGeneratedInfo>(physx::PxU32,const TAccessorType &,bool,const TInfoType *,bool)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorWriter<TPropertyType>,
+              TAccessorType=physx::PxRepXPropertyAccessor<727,physx::PxVehicleDriveSimData,const physx::PxVehicleEngineData &,physx::PxVehicleEngineData>,
+              TInfoType=physx::PxVehicleEngineDataGeneratedInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(130,3): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::handleAccessor<727,TAccessorType>(physx::PxU32,const TAccessorType &)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorWriter<TPropertyType>,
+              TAccessorType=physx::PxRepXPropertyAccessor<727,physx::PxVehicleDriveSimData,const physx::PxVehicleEngineData &,physx::PxVehicleEngineData>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\RepXMetaDataPropertyVisitor.h(148,11): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::handleAccessor<727,physx::PxRepXPropertyAccessor<727,TObjType,TSetPropType,TPropertyType>>(const TAccessorType &)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorWriter<TPropertyType>,
+              TObjType=physx::PxVehicleDriveSimData,
+              TSetPropType=const physx::PxVehicleEngineData &,
+              TPropertyType=physx::PxVehicleEngineData,
+              TAccessorType=physx::PxRepXPropertyAccessor<727,physx::PxVehicleDriveSimData,const physx::PxVehicleEngineData &,physx::PxVehicleEngineData>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\physxmetadata\include\PxVehicleAutoGeneratedMetaDataObjects.h(1394,4): message : see reference to function template instantiation 'void physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<TObjType>>::operator ()<727,physx::PxVehicleDriveSimData,const physx::PxVehicleEngineData&,physx::PxVehicleEngineData>(const physx::PxPropertyInfo<727,TObjType,const physx::PxVehicleEngineData &,physx::PxVehicleEngineData> &,physx::PxU32)' being compiled
+          with
+          [
+              TObjType=TPropertyType
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(774,12): message : see reference to function template instantiation 'physx::PxU32 physx::PxVehicleDriveSimDataGeneratedInfo::visitInstanceProperties<physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<TObjType>>>(TOperator,physx::PxU32) const' being compiled
+          with
+          [
+              TObjType=TPropertyType,
+              TOperator=physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<TPropertyType>>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(797,3): message : see reference to function template instantiation 'void physx::Sn::writeAllProperties<TObjType>(physx::Sn::TNameStack &,const TObjType *,physx::XmlWriter &,physx::MemoryBuffer &,physx::PxCollection &)' being compiled
+          with
+          [
+              TObjType=TPropertyType
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(490,4): message : see reference to function template instantiation 'void physx::Sn::handleComplexObj<TPropertyType,physx::Sn::RepXVisitorWriterBase<TObjType>,const TInfoType>(TWriterType &,const physx::PxVehicleDriveSimData *,const TInfoType &)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleDriveTank,
+              TInfoType=physx::PxVehicleDriveSimDataGeneratedInfo,
+              TWriterType=physx::Sn::RepXVisitorWriterBase<physx::PxVehicleDriveTank>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(91,12): message : see reference to function template instantiation 'void physx::Sn::RepXVisitorWriterBase<TObjType>::complexProperty<TAccessorType,const TInfoType>(physx::PxU32 *,const TAccessorType &,TInfoType &)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleDriveTank,
+              TAccessorType=physx::PxRepXPropertyAccessor<747,physx::PxVehicleDriveTank,physx::PxVehicleDriveSimData,physx::PxVehicleDriveSimData>,
+              TInfoType=physx::PxVehicleDriveSimDataGeneratedInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(118,3): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::dispatchAccessor<747,TAccessorType,physx::PxVehicleDriveSimDataGeneratedInfo>(physx::PxU32,const TAccessorType &,bool,const TInfoType *,bool)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorWriter<physx::PxVehicleDriveTank>,
+              TAccessorType=physx::PxRepXPropertyAccessor<747,physx::PxVehicleDriveTank,physx::PxVehicleDriveSimData,physx::PxVehicleDriveSimData>,
+              TInfoType=physx::PxVehicleDriveSimDataGeneratedInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(130,3): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::handleAccessor<747,TAccessorType>(physx::PxU32,const TAccessorType &)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorWriter<physx::PxVehicleDriveTank>,
+              TAccessorType=physx::PxRepXPropertyAccessor<747,physx::PxVehicleDriveTank,physx::PxVehicleDriveSimData,physx::PxVehicleDriveSimData>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\RepXMetaDataPropertyVisitor.h(148,11): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::handleAccessor<747,physx::PxRepXPropertyAccessor<747,TObjType,TSetPropType,TPropertyType>>(const TAccessorType &)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorWriter<physx::PxVehicleDriveTank>,
+              TObjType=physx::PxVehicleDriveTank,
+              TSetPropType=physx::PxVehicleDriveSimData,
+              TPropertyType=physx::PxVehicleDriveSimData,
+              TAccessorType=physx::PxRepXPropertyAccessor<747,physx::PxVehicleDriveTank,physx::PxVehicleDriveSimData,physx::PxVehicleDriveSimData>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\physxmetadata\include\PxVehicleAutoGeneratedMetaDataObjects.h(1632,4): message : see reference to function template instantiation 'void physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<TObjType>>::operator ()<747,physx::PxVehicleDriveTank,physx::PxVehicleDriveSimData,physx::PxVehicleDriveSimData>(const physx::PxPropertyInfo<747,TObjType,physx::PxVehicleDriveSimData,physx::PxVehicleDriveSimData> &,physx::PxU32)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleDriveTank
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(774,12): message : see reference to function template instantiation 'physx::PxU32 physx::PxVehicleDriveTankGeneratedInfo::visitInstanceProperties<physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<TObjType>>>(TOperator,physx::PxU32) const' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleDriveTank,
+              TOperator=physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<physx::PxVehicleDriveTank>>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(791,3): message : see reference to function template instantiation 'void physx::Sn::writeAllProperties<TObjType>(physx::Sn::TNameStack &,const TObjType *,physx::XmlWriter &,physx::MemoryBuffer &,physx::PxCollection &)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleDriveTank
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnRepXSerializerImpl.h(78,4): message : see reference to function template instantiation 'void physx::Sn::writeAllProperties<TLiveType>(const TObjType *,physx::XmlWriter &,physx::MemoryBuffer &,physx::PxCollection &)' being compiled
+          with
+          [
+              TLiveType=physx::PxVehicleDriveTank,
+              TObjType=physx::PxVehicleDriveTank
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnRepXSerializerImpl.h(76,16): message : while compiling class template member function 'void physx::RepXSerializerImpl<TVehicleType>::objectToFileImpl(const TLiveType *,physx::PxCollection *,physx::XmlWriter &,physx::MemoryBuffer &,physx::PxRepXInstantiationArgs &)'
+          with
+          [
+              TVehicleType=physx::PxVehicleDriveTank,
+              TLiveType=physx::PxVehicleDriveTank
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\PxVehicleSerialization.h(50,42): message : see reference to class template instantiation 'physx::RepXSerializerImpl<TVehicleType>' being compiled
+          with
+          [
+              TVehicleType=physx::PxVehicleDriveTank
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\PxVehicleSerialization.h(61,68): message : see reference to class template instantiation 'physx::PxVehicleRepXSerializer<physx::PxVehicleDriveTank>' being compiled
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(552,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  PxVehicleSerialization.cpp
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(526,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(240,12): message : see reference to function template instantiation 'void physx::Sn::RepXVisitorWriterBase<TObjType>::extendedIndexedProperty<physx::Vd::PxPvdExtendedIndexedPropertyAccessor<757,TObjType,TIndexType,TPropertyType>,const TInfoType>(physx::PxU32 *,const TAccessorType &,TInfoType &)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleNoDrive,
+              TIndexType=const physx::PxU32,
+              TPropertyType=physx::PxReal,
+              TInfoType=physx::PxUnknownClassInfo,
+              TAccessorType=physx::Vd::PxPvdExtendedIndexedPropertyAccessor<757,physx::PxVehicleNoDrive,const physx::PxU32,physx::PxReal>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(263,3): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::handleExtendedIndexProperty<757,physx::PxVehicleNoDrive,physx::PxReal,const physx::PxU32,physx::PxUnknownClassInfo>(physx::PxU32,const physx::PxExtendedIndexedPropertyInfo<757,physx::PxVehicleNoDrive,const physx::PxU32,physx::PxReal> &,const TInfoType &)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorWriter<physx::PxVehicleNoDrive>,
+              TInfoType=physx::PxUnknownClassInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\RepXMetaDataPropertyVisitor.h(116,13): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::operator ()<757,physx::PxVehicleNoDrive,const physx::PxU32,physx::PxReal>(const physx::PxExtendedIndexedPropertyInfo<757,physx::PxVehicleNoDrive,const physx::PxU32,physx::PxReal> &,physx::PxU32)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorWriter<physx::PxVehicleNoDrive>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\physxmetadata\include\PxVehicleAutoGeneratedMetaDataObjects.h(1795,4): message : see reference to function template instantiation 'void physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<TObjType>>::operator ()<757,physx::PxVehicleNoDrive,const physx::PxU32,physx::PxReal>(const physx::PxExtendedIndexedPropertyInfo<757,TObjType,const physx::PxU32,physx::PxReal> &,physx::PxU32)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleNoDrive
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(774,12): message : see reference to function template instantiation 'physx::PxU32 physx::PxVehicleNoDriveGeneratedInfo::visitInstanceProperties<physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<TObjType>>>(TOperator,physx::PxU32) const' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleNoDrive,
+              TOperator=physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<physx::PxVehicleNoDrive>>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(791,3): message : see reference to function template instantiation 'void physx::Sn::writeAllProperties<TObjType>(physx::Sn::TNameStack &,const TObjType *,physx::XmlWriter &,physx::MemoryBuffer &,physx::PxCollection &)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleNoDrive
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnRepXSerializerImpl.h(78,4): message : see reference to function template instantiation 'void physx::Sn::writeAllProperties<TLiveType>(const TObjType *,physx::XmlWriter &,physx::MemoryBuffer &,physx::PxCollection &)' being compiled
+          with
+          [
+              TLiveType=physx::PxVehicleNoDrive,
+              TObjType=physx::PxVehicleNoDrive
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnRepXSerializerImpl.h(76,16): message : while compiling class template member function 'void physx::RepXSerializerImpl<TVehicleType>::objectToFileImpl(const TLiveType *,physx::PxCollection *,physx::XmlWriter &,physx::MemoryBuffer &,physx::PxRepXInstantiationArgs &)'
+          with
+          [
+              TVehicleType=physx::PxVehicleNoDrive,
+              TLiveType=physx::PxVehicleNoDrive
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\PxVehicleSerialization.h(50,42): message : see reference to class template instantiation 'physx::RepXSerializerImpl<TVehicleType>' being compiled
+          with
+          [
+              TVehicleType=physx::PxVehicleNoDrive
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\PxVehicleSerialization.h(63,66): message : see reference to class template instantiation 'physx::PxVehicleRepXSerializer<physx::PxVehicleNoDrive>' being compiled
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(316,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(348,3): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::extendedDualIndexedProperty<666,physx::PxVehicleTireData,physx::PxU32,physx::PxU32,physx::PxReal>(physx::PxU32,const physx::PxExtendedDualIndexedPropertyInfo<666,physx::PxVehicleTireData,physx::PxU32,physx::PxU32,physx::PxReal> &,physx::PxU32,physx::PxU32)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorReader<TPropertyType>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\RepXMetaDataPropertyVisitor.h(128,4): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::operator ()<666,physx::PxVehicleTireData,physx::PxU32,physx::PxU32,physx::PxReal>(const physx::PxExtendedDualIndexedPropertyInfo<666,physx::PxVehicleTireData,physx::PxU32,physx::PxU32,physx::PxReal> &,physx::PxU32)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorReader<TPropertyType>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\physxmetadata\include\PxVehicleAutoGeneratedMetaDataObjects.h(950,4): message : see reference to function template instantiation 'void physx::RepXPropertyFilter<physx::Sn::RepXVisitorReader<TObjType>>::operator ()<666,physx::PxVehicleTireData,physx::PxU32,physx::PxU32,physx::PxReal>(const physx::PxExtendedDualIndexedPropertyInfo<666,TObjType,physx::PxU32,physx::PxU32,physx::PxReal> &,physx::PxU32)' being compiled
+          with
+          [
+              TObjType=TPropertyType
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorReader.h(862,7): message : see reference to function template instantiation 'physx::PxU32 physx::PxVehicleTireDataGeneratedInfo::visitInstanceProperties<physx::RepXPropertyFilter<physx::Sn::RepXVisitorReader<TObjType>>>(TOperator,physx::PxU32) const' being compiled
+          with
+          [
+              TObjType=TPropertyType,
+              TOperator=physx::RepXPropertyFilter<physx::Sn::RepXVisitorReader<TPropertyType>>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorReader.h(887,7): message : see reference to function template instantiation 'bool physx::Sn::readAllProperties<TObjType,const TInfoType>(physx::PxRepXInstantiationArgs,physx::Sn::TReaderNameStack &,physx::profile::PxProfileArray<physx::PxU32> &,physx::XmlReader &,TObjType *,physx::XmlMemoryAllocator &,physx::PxCollection &,TInfoType &)' being compiled
+          with
+          [
+              TObjType=TPropertyType,
+              TInfoType=physx::PxVehicleTireDataGeneratedInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorReader.h(628,6): message : see reference to function template instantiation 'void physx::Sn::readComplexObj<TPropertyType,physx::Sn::RepXVisitorReaderBase<TObjType>,const TInfoType>(TReaderType &,physx::PxVehicleTireData *,const TInfoType &)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleWheelsSimData,
+              TInfoType=physx::PxVehicleTireDataGeneratedInfo,
+              TReaderType=physx::Sn::RepXVisitorReaderBase<physx::PxVehicleWheelsSimData>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(240,12): message : see reference to function template instantiation 'void physx::Sn::RepXVisitorReaderBase<TObjType>::extendedIndexedProperty<physx::Vd::PxPvdExtendedIndexedPropertyAccessor<676,TObjType,TIndexType,TPropertyType>,const TInfoType>(physx::PxU32 *,const TAccessorType &,TInfoType &)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleWheelsSimData,
+              TIndexType=const physx::PxU32,
+              TPropertyType=physx::PxVehicleTireData,
+              TInfoType=physx::PxVehicleTireDataGeneratedInfo,
+              TAccessorType=physx::Vd::PxPvdExtendedIndexedPropertyAccessor<676,physx::PxVehicleWheelsSimData,const physx::PxU32,physx::PxVehicleTireData>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(263,3): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::handleExtendedIndexProperty<676,physx::PxVehicleWheelsSimData,physx::PxVehicleTireData,const physx::PxU32,physx::PxVehicleTireDataGeneratedInfo>(physx::PxU32,const physx::PxExtendedIndexedPropertyInfo<676,physx::PxVehicleWheelsSimData,const physx::PxU32,physx::PxVehicleTireData> &,const TInfoType &)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorReader<physx::PxVehicleWheelsSimData>,
+              TInfoType=physx::PxVehicleTireDataGeneratedInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\RepXMetaDataPropertyVisitor.h(116,13): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::operator ()<676,physx::PxVehicleWheelsSimData,const physx::PxU32,physx::PxVehicleTireData>(const physx::PxExtendedIndexedPropertyInfo<676,physx::PxVehicleWheelsSimData,const physx::PxU32,physx::PxVehicleTireData> &,physx::PxU32)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorReader<physx::PxVehicleWheelsSimData>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\physxmetadata\include\PxVehicleAutoGeneratedMetaDataObjects.h(1089,4): message : see reference to function template instantiation 'void physx::RepXPropertyFilter<physx::Sn::RepXVisitorReader<TObjType>>::operator ()<676,physx::PxVehicleWheelsSimData,const physx::PxU32,physx::PxVehicleTireData>(const physx::PxExtendedIndexedPropertyInfo<676,TObjType,const physx::PxU32,physx::PxVehicleTireData> &,physx::PxU32)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleWheelsSimData
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorReader.h(862,7): message : see reference to function template instantiation 'physx::PxU32 physx::PxVehicleWheelsSimDataGeneratedInfo::visitInstanceProperties<physx::RepXPropertyFilter<physx::Sn::RepXVisitorReader<TObjType>>>(TOperator,physx::PxU32) const' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleWheelsSimData,
+              TOperator=physx::RepXPropertyFilter<physx::Sn::RepXVisitorReader<physx::PxVehicleWheelsSimData>>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorReader.h(874,10): message : see reference to function template instantiation 'bool physx::Sn::readAllProperties<TObjType,physx::PxVehicleWheelsSimDataGeneratedInfo>(physx::PxRepXInstantiationArgs,physx::Sn::TReaderNameStack &,physx::profile::PxProfileArray<physx::PxU32> &,physx::XmlReader &,TObjType *,physx::XmlMemoryAllocator &,physx::PxCollection &,TInfoType &)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleWheelsSimData,
+              TInfoType=physx::PxVehicleWheelsSimDataGeneratedInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\PxVehicleSerialization.cpp(126,5): message : see reference to function template instantiation 'bool physx::Sn::readAllProperties<physx::PxVehicleWheelsSimData>(physx::PxRepXInstantiationArgs,physx::XmlReader &,TObjType *,physx::XmlMemoryAllocator &,physx::PxCollection &)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleWheelsSimData
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\PxVehicleSerialization.cpp(102,2): message : while compiling class template member function 'physx::PxRepXObject physx::PxVehicleRepXSerializer<physx::PxVehicleDrive4W>::fileToObject(physx::XmlReader &,physx::XmlMemoryAllocator &,physx::PxRepXInstantiationArgs &,physx::PxCollection *)'
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\PxVehicleSerialization.h(60,66): message : see reference to class template instantiation 'physx::PxVehicleRepXSerializer<physx::PxVehicleDrive4W>' being compiled
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(322,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(546,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(255,12): message : see reference to function template instantiation 'void physx::Sn::RepXVisitorWriterBase<TObjType>::PxFixedSizeLookupTableProperty<physx::Vd::PxPvdFixedSizeLookupTablePropertyAccessor<577,TObjType,TIndexType,TPropertyType>,const TInfoType>(physx::PxU32 *,TAccessorType &,TInfoType &)' being compiled
+          with
+          [
+              TObjType=TPropertyType,
+              TIndexType=physx::PxU32,
+              TPropertyType=physx::PxReal,
+              TInfoType=physx::PxUnknownClassInfo,
+              TAccessorType=physx::Vd::PxPvdFixedSizeLookupTablePropertyAccessor<577,physx::PxVehicleEngineData,physx::PxU32,physx::PxReal>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(269,3): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::handlePxFixedSizeLookupTableProperty<577,physx::PxVehicleEngineData,physx::PxReal,physx::PxU32,physx::PxUnknownClassInfo>(const physx::PxU32,const physx::PxFixedSizeLookupTablePropertyInfo<577,physx::PxVehicleEngineData,physx::PxU32,physx::PxReal> &,const TInfoType &)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorWriter<TPropertyType>,
+              TInfoType=physx::PxUnknownClassInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\RepXMetaDataPropertyVisitor.h(110,4): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::operator ()<577,physx::PxVehicleEngineData,physx::PxU32,physx::PxReal>(const physx::PxFixedSizeLookupTablePropertyInfo<577,physx::PxVehicleEngineData,physx::PxU32,physx::PxReal> &,physx::PxU32)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorWriter<TPropertyType>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\physxmetadata\include\PxVehicleAutoGeneratedMetaDataObjects.h(162,4): message : see reference to function template instantiation 'void physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<TObjType>>::operator ()<577,physx::PxVehicleEngineData,physx::PxU32,physx::PxReal>(const physx::PxFixedSizeLookupTablePropertyInfo<577,TObjType,physx::PxU32,physx::PxReal> &,physx::PxU32)' being compiled
+          with
+          [
+              TObjType=TPropertyType
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(774,12): message : see reference to function template instantiation 'physx::PxU32 physx::PxVehicleEngineDataGeneratedInfo::visitInstanceProperties<physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<TObjType>>>(TOperator,physx::PxU32) const' being compiled
+          with
+          [
+              TObjType=TPropertyType,
+              TOperator=physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<TPropertyType>>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(797,3): message : see reference to function template instantiation 'void physx::Sn::writeAllProperties<TObjType>(physx::Sn::TNameStack &,const TObjType *,physx::XmlWriter &,physx::MemoryBuffer &,physx::PxCollection &)' being compiled
+          with
+          [
+              TObjType=TPropertyType
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(490,4): message : see reference to function template instantiation 'void physx::Sn::handleComplexObj<TPropertyType,physx::Sn::RepXVisitorWriterBase<TObjType>,const TInfoType>(TWriterType &,const physx::PxVehicleEngineData *,const TInfoType &)' being compiled
+          with
+          [
+              TObjType=TPropertyType,
+              TInfoType=physx::PxVehicleEngineDataGeneratedInfo,
+              TWriterType=physx::Sn::RepXVisitorWriterBase<TPropertyType>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(91,12): message : see reference to function template instantiation 'void physx::Sn::RepXVisitorWriterBase<TObjType>::complexProperty<TAccessorType,const TInfoType>(physx::PxU32 *,const TAccessorType &,TInfoType &)' being compiled
+          with
+          [
+              TObjType=TPropertyType,
+              TAccessorType=physx::PxRepXPropertyAccessor<727,physx::PxVehicleDriveSimData,const physx::PxVehicleEngineData &,physx::PxVehicleEngineData>,
+              TInfoType=physx::PxVehicleEngineDataGeneratedInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(118,3): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::dispatchAccessor<727,TAccessorType,physx::PxVehicleEngineDataGeneratedInfo>(physx::PxU32,const TAccessorType &,bool,const TInfoType *,bool)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorWriter<TPropertyType>,
+              TAccessorType=physx::PxRepXPropertyAccessor<727,physx::PxVehicleDriveSimData,const physx::PxVehicleEngineData &,physx::PxVehicleEngineData>,
+              TInfoType=physx::PxVehicleEngineDataGeneratedInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(130,3): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::handleAccessor<727,TAccessorType>(physx::PxU32,const TAccessorType &)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorWriter<TPropertyType>,
+              TAccessorType=physx::PxRepXPropertyAccessor<727,physx::PxVehicleDriveSimData,const physx::PxVehicleEngineData &,physx::PxVehicleEngineData>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\RepXMetaDataPropertyVisitor.h(148,11): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::handleAccessor<727,physx::PxRepXPropertyAccessor<727,TObjType,TSetPropType,TPropertyType>>(const TAccessorType &)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorWriter<TPropertyType>,
+              TObjType=physx::PxVehicleDriveSimData,
+              TSetPropType=const physx::PxVehicleEngineData &,
+              TPropertyType=physx::PxVehicleEngineData,
+              TAccessorType=physx::PxRepXPropertyAccessor<727,physx::PxVehicleDriveSimData,const physx::PxVehicleEngineData &,physx::PxVehicleEngineData>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\physxmetadata\include\PxVehicleAutoGeneratedMetaDataObjects.h(1394,4): message : see reference to function template instantiation 'void physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<TObjType>>::operator ()<727,physx::PxVehicleDriveSimData,const physx::PxVehicleEngineData&,physx::PxVehicleEngineData>(const physx::PxPropertyInfo<727,TObjType,const physx::PxVehicleEngineData &,physx::PxVehicleEngineData> &,physx::PxU32)' being compiled
+          with
+          [
+              TObjType=TPropertyType
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(774,12): message : see reference to function template instantiation 'physx::PxU32 physx::PxVehicleDriveSimDataGeneratedInfo::visitInstanceProperties<physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<TObjType>>>(TOperator,physx::PxU32) const' being compiled
+          with
+          [
+              TObjType=TPropertyType,
+              TOperator=physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<TPropertyType>>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(797,3): message : see reference to function template instantiation 'void physx::Sn::writeAllProperties<TObjType>(physx::Sn::TNameStack &,const TObjType *,physx::XmlWriter &,physx::MemoryBuffer &,physx::PxCollection &)' being compiled
+          with
+          [
+              TObjType=TPropertyType
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(490,4): message : see reference to function template instantiation 'void physx::Sn::handleComplexObj<TPropertyType,physx::Sn::RepXVisitorWriterBase<TObjType>,const TInfoType>(TWriterType &,const physx::PxVehicleDriveSimData *,const TInfoType &)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleDriveTank,
+              TInfoType=physx::PxVehicleDriveSimDataGeneratedInfo,
+              TWriterType=physx::Sn::RepXVisitorWriterBase<physx::PxVehicleDriveTank>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(91,12): message : see reference to function template instantiation 'void physx::Sn::RepXVisitorWriterBase<TObjType>::complexProperty<TAccessorType,const TInfoType>(physx::PxU32 *,const TAccessorType &,TInfoType &)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleDriveTank,
+              TAccessorType=physx::PxRepXPropertyAccessor<747,physx::PxVehicleDriveTank,physx::PxVehicleDriveSimData,physx::PxVehicleDriveSimData>,
+              TInfoType=physx::PxVehicleDriveSimDataGeneratedInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(118,3): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::dispatchAccessor<747,TAccessorType,physx::PxVehicleDriveSimDataGeneratedInfo>(physx::PxU32,const TAccessorType &,bool,const TInfoType *,bool)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorWriter<physx::PxVehicleDriveTank>,
+              TAccessorType=physx::PxRepXPropertyAccessor<747,physx::PxVehicleDriveTank,physx::PxVehicleDriveSimData,physx::PxVehicleDriveSimData>,
+              TInfoType=physx::PxVehicleDriveSimDataGeneratedInfo
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\PvdMetaDataPropertyVisitor.h(130,3): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::handleAccessor<747,TAccessorType>(physx::PxU32,const TAccessorType &)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorWriter<physx::PxVehicleDriveTank>,
+              TAccessorType=physx::PxRepXPropertyAccessor<747,physx::PxVehicleDriveTank,physx::PxVehicleDriveSimData,physx::PxVehicleDriveSimData>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxmetadata\core\include\RepXMetaDataPropertyVisitor.h(148,11): message : see reference to function template instantiation 'void physx::Vd::PvdPropertyFilter<TOperatorType>::handleAccessor<747,physx::PxRepXPropertyAccessor<747,TObjType,TSetPropType,TPropertyType>>(const TAccessorType &)' being compiled
+          with
+          [
+              TOperatorType=physx::Sn::RepXVisitorWriter<physx::PxVehicleDriveTank>,
+              TObjType=physx::PxVehicleDriveTank,
+              TSetPropType=physx::PxVehicleDriveSimData,
+              TPropertyType=physx::PxVehicleDriveSimData,
+              TAccessorType=physx::PxRepXPropertyAccessor<747,physx::PxVehicleDriveTank,physx::PxVehicleDriveSimData,physx::PxVehicleDriveSimData>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\physxmetadata\include\PxVehicleAutoGeneratedMetaDataObjects.h(1632,4): message : see reference to function template instantiation 'void physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<TObjType>>::operator ()<747,physx::PxVehicleDriveTank,physx::PxVehicleDriveSimData,physx::PxVehicleDriveSimData>(const physx::PxPropertyInfo<747,TObjType,physx::PxVehicleDriveSimData,physx::PxVehicleDriveSimData> &,physx::PxU32)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleDriveTank
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(774,12): message : see reference to function template instantiation 'physx::PxU32 physx::PxVehicleDriveTankGeneratedInfo::visitInstanceProperties<physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<TObjType>>>(TOperator,physx::PxU32) const' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleDriveTank,
+              TOperator=physx::RepXPropertyFilter<physx::Sn::RepXVisitorWriter<physx::PxVehicleDriveTank>>
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(791,3): message : see reference to function template instantiation 'void physx::Sn::writeAllProperties<TObjType>(physx::Sn::TNameStack &,const TObjType *,physx::XmlWriter &,physx::MemoryBuffer &,physx::PxCollection &)' being compiled
+          with
+          [
+              TObjType=physx::PxVehicleDriveTank
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnRepXSerializerImpl.h(78,4): message : see reference to function template instantiation 'void physx::Sn::writeAllProperties<TLiveType>(const TObjType *,physx::XmlWriter &,physx::MemoryBuffer &,physx::PxCollection &)' being compiled
+          with
+          [
+              TLiveType=physx::PxVehicleDriveTank,
+              TObjType=physx::PxVehicleDriveTank
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnRepXSerializerImpl.h(76,16): message : while compiling class template member function 'void physx::RepXSerializerImpl<TVehicleType>::objectToFileImpl(const TLiveType *,physx::PxCollection *,physx::XmlWriter &,physx::MemoryBuffer &,physx::PxRepXInstantiationArgs &)'
+          with
+          [
+              TVehicleType=physx::PxVehicleDriveTank,
+              TLiveType=physx::PxVehicleDriveTank
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\PxVehicleSerialization.h(50,42): message : see reference to class template instantiation 'physx::RepXSerializerImpl<TVehicleType>' being compiled
+          with
+          [
+              TVehicleType=physx::PxVehicleDriveTank
+          ]
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\PxVehicleSerialization.h(61,68): message : see reference to class template instantiation 'physx::PxVehicleRepXSerializer<physx::PxVehicleDriveTank>' being compiled
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxextensions\src\serialization\Xml\SnXmlVisitorWriter.h(552,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  PxVehicleSuspWheelTire4.cpp
+  PxVehicleTireFriction.cpp
+  PxVehicleUpdate.cpp
+  PxVehicleWheels.cpp
+  VehicleUtilControl.cpp
+  VehicleUtilSetup.cpp
+  Generating Code...
+  Compiling...
+  VehicleUtilTelemetry.cpp
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(135,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(178,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(220,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(234,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(248,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(262,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(276,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(290,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(304,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(318,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(332,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(360,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(374,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(388,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(402,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(416,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(430,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(445,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(459,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(473,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(487,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\physxvehicle\src\VehicleUtilTelemetry.cpp(501,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  PxVehicleAutoGeneratedMetaDataObjects.cpp
+  PxVehicleMetaDataObjects.cpp
+  VhCommandHelpers.cpp
+  VhDrivetrainFunctions.cpp
+  VhDrivetrainHelpers.cpp
+  VhPhysXActorFunctions.cpp
+  VhPhysXActorHelpers.cpp
+  VhPhysXConstraintFunctions.cpp
+  VhPhysXConstraintHelpers.cpp
+  VhPhysXRoadGeometryFunctions.cpp
+  VhPhysXRoadGeometryHelpers.cpp
+  VhPvdFunctions.cpp
+  VhPvdHelpers.cpp
+  VhPvdWriter.cpp
+  VhRigidBodyFunctions.cpp
+  VhSteeringFunctions.cpp
+  VhSuspensionFunctions.cpp
+  VhSuspensionHelpers.cpp
+  VhTireFunctions.cpp
+  Generating Code...
+  Compiling...
+  VhTireHelpers.cpp
+  VhWheelFunctions.cpp
+  PxProfileEventImpl.cpp
+  PxPvd.cpp
+  PxPvdDataStream.cpp
+  PxPvdDefaultFileTransport.cpp
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\filebuf\include\PsFileBuffer.h(55,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\filebuf\include\PsFileBuffer.h(58,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\filebuf\include\PsFileBuffer.h(61,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\source\filebuf\include\PsFileBuffer.h(64,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  PxPvdDefaultSocketTransport.cpp
+  PxPvdImpl.cpp
+  PxPvdMemClient.cpp
+  PxPvdObjectModelMetaData.cpp
+  PxPvdObjectRegistrar.cpp
+  PxPvdProfileZoneClient.cpp
+  PxPvdUserRenderer.cpp
+  SqCompoundPruner.cpp
+  SqCompoundPruningPool.cpp
+  SqFactory.cpp
+  SqManager.cpp
+  SqQuery.cpp
+  ScActorCore.cpp
+  ScActorSim.cpp
+  Generating Code...
+  Compiling...
+  ScArticulationCore.cpp
+  ScArticulationJointCore.cpp
+  ScArticulationJointSim.cpp
+  ScArticulationSensorSim.cpp
+  ScArticulationSim.cpp
+  ScArticulationTendonCore.cpp
+  ScArticulationTendonJointCore.cpp
+  ScArticulationTendonSim.cpp
+  ScBodyCore.cpp
+  ScBodySim.cpp
+  ScBroadphase.cpp
+  ScCCD.cpp
+  ScConstraintBreakage.cpp
+  ScConstraintCore.cpp
+  ScConstraintInteraction.cpp
+  ScConstraintSim.cpp
+  ScElementInteractionMarker.cpp
+  ScElementSim.cpp
+  ScFEMClothCore.cpp
+  ScFEMClothShapeSim.cpp
+  Generating Code...
+  Compiling...
+  ScFEMClothSim.cpp
+  ScFiltering.cpp
+  ScHairSystemCore.cpp
+  ScHairSystemShapeCore.cpp
+  ScHairSystemShapeSim.cpp
+  ScHairSystemSim.cpp
+  ScInteraction.cpp
+  ScIterators.cpp
+  ScKinematics.cpp
+  ScMetaData.cpp
+  ScNPhaseCore.cpp
+  ScParticleSystemCore.cpp
+  ScParticleSystemShapeCore.cpp
+  ScParticleSystemShapeSim.cpp
+  ScParticleSystemSim.cpp
+  ScPhysics.cpp
+  ScPipeline.cpp
+  ScRigidCore.cpp
+  ScRigidSim.cpp
+  ScScene.cpp
+  Generating Code...
+  Compiling...
+  ScShapeCore.cpp
+  ScShapeInteraction.cpp
+  ScShapeSim.cpp
+  ScShapeSimBase.cpp
+  ScSimStats.cpp
+  ScSimulationController.cpp
+  ScSleep.cpp
+  ScSoftBodyCore.cpp
+  ScSoftBodyShapeSim.cpp
+  ScSoftBodySim.cpp
+  ScSqBoundsManager.cpp
+  ScStaticCore.cpp
+  ScTriggerInteraction.cpp
+  ScVisualize.cpp
+  TaskManager.cpp
+  Generating Code...
+PhysXIndicatorLinux.obj : warning LNK4006: "public: __cdecl physx::PhysXIndicator::PhysXIndicator(bool)" (??0PhysXIndicator@physx@@QEAA@_N@Z) already defined in PhysXIndicatorWindows.obj; second definition ignored
+PhysXIndicatorLinux.obj : warning LNK4006: "public: __cdecl physx::PhysXIndicator::~PhysXIndicator(void)" (??1PhysXIndicator@physx@@QEAA@XZ) already defined in PhysXIndicatorWindows.obj; second definition ignored
+PhysXIndicatorLinux.obj : warning LNK4006: "public: void __cdecl physx::PhysXIndicator::setIsGpu(bool)" (?setIsGpu@PhysXIndicator@physx@@QEAAX_N@Z) already defined in PhysXIndicatorWindows.obj; second definition ignored
+  physX.vcxproj -> C:\dev\VeryCoolEngine\VeryCoolEngine\vendor\physx\physx\bin\Debug--x86_64\physX\physX.lib

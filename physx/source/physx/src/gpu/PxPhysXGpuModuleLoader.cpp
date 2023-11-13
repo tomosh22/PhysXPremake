@@ -140,7 +140,7 @@ namespace physx
 	   
 	void PxLoadPhysxGPUModule(const char* appGUID)
 	{
-		HMODULE s_library = GetModuleHandle(gPhysXGpuLibraryName);
+		HMODULE s_library = GetModuleHandle((wchar_t*)gPhysXGpuLibraryName);
 
 		bool freshlyLoaded = false;
 		if (s_library == NULL)

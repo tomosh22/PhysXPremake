@@ -1,0 +1,1745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{AEFEE3F6-9AA0-0ECD-835B-22216F9C951D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\src">
+      <UniqueIdentifier>{C5631BB1-B11B-5DFE-1A23-365A06FAF7EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\src\windows">
+      <UniqueIdentifier>{1F9BE684-0B7F-A7DA-74DF-A12D60E2915C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fastxml">
+      <UniqueIdentifier>{24E21A9A-90C1-9935-99D9-240C05380097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fastxml\src">
+      <UniqueIdentifier>{3B126313-A7C7-DB08-30BC-D5DF9C70D20C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="foundation">
+      <UniqueIdentifier>{BCA8D551-A860-179F-1168-F0FAFD3EB28F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="foundation\windows">
+      <UniqueIdentifier>{16E7B5B1-02CB-7607-6B2B-715A572E6189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils">
+      <UniqueIdentifier>{FE3E706D-6AA9-24E4-B3E7-D5891F910239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src">
+      <UniqueIdentifier>{154C6F19-810C-EB4F-4A47-34CDB6C62F2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\ccd">
+      <UniqueIdentifier>{AEC6CC99-1ADD-CA2F-6354-5651CFA99BB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\common">
+      <UniqueIdentifier>{CD631E44-B9F2-A70D-6211-BC084E7FB8B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\contact">
+      <UniqueIdentifier>{109000C8-7CFC-BBC2-45F0-5320B11BDE2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\convex">
+      <UniqueIdentifier>{37151F44-23A4-A80D-CCC2-BC08B830B9B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\cooking">
+      <UniqueIdentifier>{8EDC0DC8-FA48-C9C2-C33C-61202F68EB2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\distance">
+      <UniqueIdentifier>{8FF220F2-7BEC-4944-6459-E05450F2AFB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\gjk">
+      <UniqueIdentifier>{A0D8CC99-0CEF-CA2F-5566-5651C1BB9BB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\hf">
+      <UniqueIdentifier>{B225C880-9E1E-E7D2-C750-CC57B3A8C6DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\intersection">
+      <UniqueIdentifier>{9BCDBF1D-87DD-6BEE-F096-D00CDCC55A87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\mesh">
+      <UniqueIdentifier>{11236BD3-FD06-2C29-6667-267C526A16AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\pcm">
+      <UniqueIdentifier>{04FECC99-7014-CB2F-B98B-565125E19BB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\sweep">
+      <UniqueIdentifier>{88BB4541-F41C-234F-7D8A-6901E9EA590E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="immediatemode">
+      <UniqueIdentifier>{79A49EDB-E564-1A12-AE9F-638F1A1F5FEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="immediatemode\src">
+      <UniqueIdentifier>{10F7F91A-7C0D-F8B0-C584-83D231DAC838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lowlevel">
+      <UniqueIdentifier>{8F0F6BA5-7BDC-C5B0-A4F5-B3589021FB3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lowlevel\api">
+      <UniqueIdentifier>{58B0917C-4413-2121-ED98-59D7D9DAECA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lowlevel\api\src">
+      <UniqueIdentifier>{6FDA3DD4-5BD3-5C26-8405-42AB705D3C32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lowlevel\common">
+      <UniqueIdentifier>{073A40E4-73C5-ADA8-7CD6-309DE8E009A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lowlevel\common\src">
+      <UniqueIdentifier>{9EA3671E-0A05-452C-9372-8BDEFFD27BEB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lowlevel\common\src\pipeline">
+      <UniqueIdentifier>{A3D91FDA-8F94-0F86-384C-88D024E65916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lowlevel\software">
+      <UniqueIdentifier>{C9EF82A9-3506-813F-7E7D-0C61EAD251C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lowlevel\software\src">
+      <UniqueIdentifier>{606AB38D-CCD6-6E88-95CA-06E601F690F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lowlevelaabb">
+      <UniqueIdentifier>{7519AD7C-617C-3C21-0A02-75D7F64308A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lowlevelaabb\src">
+      <UniqueIdentifier>{0C8AF2D7-F882-112A-21B5-F6AE0D0DF135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lowleveldynamics">
+      <UniqueIdentifier>{E75C3BF0-D355-5A42-FC87-3FC7E8DF394E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lowleveldynamics\src">
+      <UniqueIdentifier>{7E36F926-6AC5-82F0-13E4-96EBFF519396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physx">
+      <UniqueIdentifier>{01D22410-6DE6-4CC1-3668-F020A23B49F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physx\src">
+      <UniqueIdentifier>{98A86B5A-0413-20D1-4D51-D176B9FAFD25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physx\src\device">
+      <UniqueIdentifier>{573F70A1-4338-8FF3-6C6A-747858C26EFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physx\src\device\linux">
+      <UniqueIdentifier>{D667EE28-C261-177B-ABCE-AD8B97677DE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physx\src\device\windows">
+      <UniqueIdentifier>{B1E8DE6C-9D0D-2EED-C658-137DB2DC2C0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physx\src\gpu">
+      <UniqueIdentifier>{73BFD982-DF7F-55B9-A8BA-9E36143A9A95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physx\src\omnipvd">
+      <UniqueIdentifier>{64815130-D097-4FC6-190F-DBE78564204E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physx\src\windows">
+      <UniqueIdentifier>{F202CC8E-5E19-CA24-A790-554613E69AAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxcharacterkinematic">
+      <UniqueIdentifier>{033598B6-6F6C-E04D-7876-4471E42C0747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxcharacterkinematic\src">
+      <UniqueIdentifier>{9ABCFC01-06CA-2AE8-8FB0-26D3FBBCF69E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxcooking">
+      <UniqueIdentifier>{0B9D4DBC-F7FF-DC60-A085-15178CC7A8E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxcooking\src">
+      <UniqueIdentifier>{A2E8B634-8EE1-D586-B713-BB0BA36BB592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxcooking\src\windows">
+      <UniqueIdentifier>{FCAC332D-E8D1-82AD-111D-683DFDA081CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxextensions">
+      <UniqueIdentifier>{91A132C7-FD2C-A08B-063E-23807248FC8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxextensions\src">
+      <UniqueIdentifier>{28C0F67B-9421-D489-1D8F-1A3C89EF0A49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxextensions\src\omnipvd">
+      <UniqueIdentifier>{F4280361-6036-3147-E91C-2D325529FDFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxextensions\src\serialization">
+      <UniqueIdentifier>{D56E4FB1-41DD-A430-8AC6-5F30F6739ACC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxextensions\src\serialization\Binary">
+      <UniqueIdentifier>{89783DE2-75F5-3025-9E72-31398A4ECDB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxextensions\src\serialization\Xml">
+      <UniqueIdentifier>{F51B8096-61E0-7E86-2A46-AF5096C91ABC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxextensions\src\tet">
+      <UniqueIdentifier>{E454461C-508C-8EB3-5996-F2D6C54CB5AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxmetadata">
+      <UniqueIdentifier>{A212BF89-0ED3-3AC0-D70D-843D438D7F9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxmetadata\core">
+      <UniqueIdentifier>{5AB868F3-469C-2949-AFFC-239C9BFF13CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxmetadata\core\src">
+      <UniqueIdentifier>{71137D6F-5D0D-A6C1-467A-3CD232130C2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxmetadata\extensions">
+      <UniqueIdentifier>{A1CAF8CE-8DEF-474F-B63A-2DDFA2BE466D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxmetadata\extensions\src">
+      <UniqueIdentifier>{38F1CADD-24AC-BA89-CD63-33D4B9FD041A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxvehicle">
+      <UniqueIdentifier>{01AB0C5B-ED0D-9CFF-9693-D4B582D56782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxvehicle\src">
+      <UniqueIdentifier>{98019817-84FA-B669-AD2C-9CEE99849675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxvehicle\src\physxmetadata">
+      <UniqueIdentifier>{A43DFDB8-9063-C71F-79A9-4CEB656EECEB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxvehicle\src\physxmetadata\src">
+      <UniqueIdentifier>{BB2D074B-A769-0AB5-107C-22ACFCD6B2CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxvehicle2">
+      <UniqueIdentifier>{530BA2BC-BFCB-1DF3-8806-6770F48562CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxvehicle2\src">
+      <UniqueIdentifier>{EA3AA90A-5651-A7A0-9FC8-32C20B1E7828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxvehicle2\src\commands">
+      <UniqueIdentifier>{8B594F56-7769-FB26-E022-6045CC51EABF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxvehicle2\src\drivetrain">
+      <UniqueIdentifier>{F13F9996-DDFA-8842-86B2-018D724CD3D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxvehicle2\src\physxActor">
+      <UniqueIdentifier>{6E751940-5A30-09EC-03E8-8136EF81537C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxvehicle2\src\physxConstraints">
+      <UniqueIdentifier>{AD866F7C-99C2-72E6-02D5-8ADDEE2F1B01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxvehicle2\src\physxRoadGeometry">
+      <UniqueIdentifier>{A7017391-13BB-DD3B-9C1A-F81508D393AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxvehicle2\src\pvd">
+      <UniqueIdentifier>{C3515C61-2FBE-175C-F8B1-AFB964DD39C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxvehicle2\src\rigidBody">
+      <UniqueIdentifier>{D673E692-4281-1479-CB67-10643774E02F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxvehicle2\src\steering">
+      <UniqueIdentifier>{BA0C1F88-A61C-CB58-0FD6-2F77FB04BAF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxvehicle2\src\suspension">
+      <UniqueIdentifier>{5014F69C-3CCF-E548-E586-5E93D12030D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxvehicle2\src\tire">
+      <UniqueIdentifier>{8D86E88C-7980-11DF-62ED-A7EF4E86774B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physxvehicle2\src\wheel">
+      <UniqueIdentifier>{6EDE2E2A-DA15-77C1-E31F-DBE44FD69DBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pvd">
+      <UniqueIdentifier>{EF9E880B-5BA8-887C-E423-9F7C502C947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pvd\src">
+      <UniqueIdentifier>{863CA8CB-F21B-2767-FB33-B23D67928DC8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scenequery">
+      <UniqueIdentifier>{C999E34F-B551-259D-1E59-FEF80A30C08D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scenequery\src">
+      <UniqueIdentifier>{60145968-4CE2-4C6E-3576-BD9421E328D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="simulationcontroller">
+      <UniqueIdentifier>{EEEDA2DE-DA7C-2CA8-839B-40A36F093D4E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="simulationcontroller\src">
+      <UniqueIdentifier>{05F33F31-F117-8FB1-1A63-744106E78DCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="task">
+      <UniqueIdentifier>{58579E7C-448E-9F0D-ED7A-8510D9901B0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="task\src">
+      <UniqueIdentifier>{6F0146C8-5BCE-A0D3-84E7-8E7B7013D661}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\common\src\CmCollection.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\common\src\CmPtrTable.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\common\src\CmRadixSort.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\common\src\CmSerialize.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\common\src\CmVisualization.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\common\src\windows\CmWindowsDelayLoadHook.cpp">
+      <Filter>common\src\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\common\src\windows\CmWindowsModuleUpdateLoader.cpp">
+      <Filter>common\src\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\fastxml\src\PsFastXml.cpp">
+      <Filter>fastxml\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\foundation\FdAllocator.cpp">
+      <Filter>foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\foundation\FdAssert.cpp">
+      <Filter>foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\foundation\FdFoundation.cpp">
+      <Filter>foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\foundation\FdMathUtils.cpp">
+      <Filter>foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\foundation\FdString.cpp">
+      <Filter>foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\foundation\FdTempAllocator.cpp">
+      <Filter>foundation</Filter>
+    </ClCompile>
+    <ClCompile Include="source\foundation\windows\FdWindowsAtomic.cpp">
+      <Filter>foundation\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\foundation\windows\FdWindowsFPU.cpp">
+      <Filter>foundation\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\foundation\windows\FdWindowsMutex.cpp">
+      <Filter>foundation\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\foundation\windows\FdWindowsPrintString.cpp">
+      <Filter>foundation\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\foundation\windows\FdWindowsSList.cpp">
+      <Filter>foundation\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\foundation\windows\FdWindowsSocket.cpp">
+      <Filter>foundation\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\foundation\windows\FdWindowsSync.cpp">
+      <Filter>foundation\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\foundation\windows\FdWindowsThread.cpp">
+      <Filter>foundation\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\foundation\windows\FdWindowsTime.cpp">
+      <Filter>foundation\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuAABBPruner.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuAABBTree.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuAABBTreeUpdateMap.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuActorShapeMap.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuBVH.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuBounds.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuBox.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuBucketPruner.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuCCTSweepTests.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuCapsule.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuCookingSDF.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuExtendedBucketPruner.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuFactory.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuGeometryQuery.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuGjkQuery.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuIncrementalAABBPruner.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuIncrementalAABBPrunerCore.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuIncrementalAABBTree.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuInternal.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuMTD.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuMaverickNode.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuMeshFactory.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuMetaData.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuOverlapTests.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuPruningPool.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuQuerySystem.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuRaycastTests.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuSAH.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuSDF.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuSecondaryPruner.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuSqInternal.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuSweepMTD.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuSweepSharedTests.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuSweepTests.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\GuWindingNumber.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\ccd\GuCCDSweepConvexMesh.cpp">
+      <Filter>geomutils\src\ccd</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\ccd\GuCCDSweepPrimitives.cpp">
+      <Filter>geomutils\src\ccd</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\common\GuAdjacencies.cpp">
+      <Filter>geomutils\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\common\GuBarycentricCoordinates.cpp">
+      <Filter>geomutils\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\common\GuEdgeList.cpp">
+      <Filter>geomutils\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\common\GuMeshAnalysis.cpp">
+      <Filter>geomutils\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\common\GuMeshCleaner.cpp">
+      <Filter>geomutils\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\common\GuQuantizer.cpp">
+      <Filter>geomutils\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\common\GuSeparatingAxes.cpp">
+      <Filter>geomutils\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\common\GuVertexReducer.cpp">
+      <Filter>geomutils\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\contact\GuContactBoxBox.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\contact\GuContactCapsuleBox.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\contact\GuContactCapsuleCapsule.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\contact\GuContactCapsuleConvex.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\contact\GuContactCapsuleMesh.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\contact\GuContactConvexConvex.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\contact\GuContactConvexMesh.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\contact\GuContactCustomGeometry.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\contact\GuContactPlaneBox.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\contact\GuContactPlaneCapsule.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\contact\GuContactPlaneConvex.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\contact\GuContactPolygonPolygon.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\contact\GuContactSphereBox.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\contact\GuContactSphereCapsule.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\contact\GuContactSphereMesh.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\contact\GuContactSpherePlane.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\contact\GuContactSphereSphere.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\contact\GuFeatureCode.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\convex\GuBigConvexData.cpp">
+      <Filter>geomutils\src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\convex\GuConvexHelper.cpp">
+      <Filter>geomutils\src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\convex\GuConvexMesh.cpp">
+      <Filter>geomutils\src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\convex\GuConvexSupportTable.cpp">
+      <Filter>geomutils\src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\convex\GuConvexUtilsInternal.cpp">
+      <Filter>geomutils\src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\convex\GuHillClimbing.cpp">
+      <Filter>geomutils\src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\convex\GuShapeConvex.cpp">
+      <Filter>geomutils\src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingBVH.cpp">
+      <Filter>geomutils\src\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingBigConvexDataBuilder.cpp">
+      <Filter>geomutils\src\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingConvexHullBuilder.cpp">
+      <Filter>geomutils\src\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingConvexHullLib.cpp">
+      <Filter>geomutils\src\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingConvexHullUtils.cpp">
+      <Filter>geomutils\src\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingConvexMesh.cpp">
+      <Filter>geomutils\src\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingConvexMeshBuilder.cpp">
+      <Filter>geomutils\src\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingConvexPolygonsBuilder.cpp">
+      <Filter>geomutils\src\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingHF.cpp">
+      <Filter>geomutils\src\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingQuickHullConvexHullLib.cpp">
+      <Filter>geomutils\src\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingTetrahedronMesh.cpp">
+      <Filter>geomutils\src\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingTriangleMesh.cpp">
+      <Filter>geomutils\src\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\cooking\GuCookingVolumeIntegration.cpp">
+      <Filter>geomutils\src\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\cooking\GuRTreeCooking.cpp">
+      <Filter>geomutils\src\cooking</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\distance\GuDistancePointBox.cpp">
+      <Filter>geomutils\src\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\distance\GuDistancePointTetrahedron.cpp">
+      <Filter>geomutils\src\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\distance\GuDistancePointTriangle.cpp">
+      <Filter>geomutils\src\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\distance\GuDistanceSegmentBox.cpp">
+      <Filter>geomutils\src\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\distance\GuDistanceSegmentSegment.cpp">
+      <Filter>geomutils\src\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\distance\GuDistanceSegmentTriangle.cpp">
+      <Filter>geomutils\src\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\distance\GuDistanceTriangleTriangle.cpp">
+      <Filter>geomutils\src\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\gjk\GuEPA.cpp">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\gjk\GuGJKSimplex.cpp">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\gjk\GuGJKTest.cpp">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\hf\GuHeightField.cpp">
+      <Filter>geomutils\src\hf</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\hf\GuHeightFieldUtil.cpp">
+      <Filter>geomutils\src\hf</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\hf\GuOverlapTestsHF.cpp">
+      <Filter>geomutils\src\hf</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\hf\GuSweepsHF.cpp">
+      <Filter>geomutils\src\hf</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\intersection\GuIntersectionBoxBox.cpp">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\intersection\GuIntersectionCapsuleTriangle.cpp">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\intersection\GuIntersectionEdgeEdge.cpp">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\intersection\GuIntersectionRayBox.cpp">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\intersection\GuIntersectionRayCapsule.cpp">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\intersection\GuIntersectionRaySphere.cpp">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\intersection\GuIntersectionSphereBox.cpp">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\intersection\GuIntersectionTetrahedronBox.cpp">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\intersection\GuIntersectionTriangleBox.cpp">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\intersection\GuIntersectionTriangleTriangle.cpp">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuBV32.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuBV32Build.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4Build.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4_AABBSweep.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4_BoxOverlap.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4_CapsuleSweep.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4_CapsuleSweepAA.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4_MeshMeshOverlap.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4_OBBSweep.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4_Raycast.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4_SphereOverlap.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuBV4_SphereSweep.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuMeshQuery.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuMidphaseBV4.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuMidphaseRTree.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuOverlapTestsMesh.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuRTree.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuRTreeQueries.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuSweepsMesh.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuTetrahedronMesh.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuTetrahedronMeshUtils.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuTriangleMesh.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuTriangleMeshBV4.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\mesh\GuTriangleMeshRTree.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactBoxBox.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactBoxConvex.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactCapsuleBox.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactCapsuleCapsule.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactCapsuleConvex.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactCapsuleHeightField.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactCapsuleMesh.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactConvexCommon.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactConvexConvex.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactConvexHeightField.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactConvexMesh.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactCustomGeometry.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactGenBoxConvex.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactGenSphereCapsule.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactGenUtil.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactPlaneBox.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactPlaneCapsule.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactPlaneConvex.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactSphereBox.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactSphereCapsule.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactSphereConvex.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactSphereHeightField.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactSphereMesh.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactSpherePlane.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMContactSphereSphere.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMShapeConvex.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPCMTriangleContactGen.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\pcm\GuPersistentContactManifold.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepBoxBox.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepBoxSphere.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepBoxTriangle_FeatureBased.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepBoxTriangle_SAT.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepCapsuleBox.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepCapsuleCapsule.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepCapsuleTriangle.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepSphereCapsule.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepSphereSphere.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepSphereTriangle.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="source\geomutils\src\sweep\GuSweepTriangleUtils.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="source\immediatemode\src\NpImmediateMode.cpp">
+      <Filter>immediatemode\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevel\api\src\px_globals.cpp">
+      <Filter>lowlevel\api\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevel\common\src\pipeline\PxcContactCache.cpp">
+      <Filter>lowlevel\common\src\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevel\common\src\pipeline\PxcContactMethodImpl.cpp">
+      <Filter>lowlevel\common\src\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevel\common\src\pipeline\PxcMaterialMethodImpl.cpp">
+      <Filter>lowlevel\common\src\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevel\common\src\pipeline\PxcNpBatch.cpp">
+      <Filter>lowlevel\common\src\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevel\common\src\pipeline\PxcNpCacheStreamPair.cpp">
+      <Filter>lowlevel\common\src\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevel\common\src\pipeline\PxcNpContactPrepShared.cpp">
+      <Filter>lowlevel\common\src\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevel\common\src\pipeline\PxcNpMemBlockPool.cpp">
+      <Filter>lowlevel\common\src\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevel\common\src\pipeline\PxcNpThreadContext.cpp">
+      <Filter>lowlevel\common\src\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevel\software\src\PxsCCD.cpp">
+      <Filter>lowlevel\software\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevel\software\src\PxsContactManager.cpp">
+      <Filter>lowlevel\software\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevel\software\src\PxsContext.cpp">
+      <Filter>lowlevel\software\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevel\software\src\PxsDefaultMemoryManager.cpp">
+      <Filter>lowlevel\software\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevel\software\src\PxsIslandSim.cpp">
+      <Filter>lowlevel\software\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevel\software\src\PxsNphaseImplementationContext.cpp">
+      <Filter>lowlevel\software\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevel\software\src\PxsSimpleIslandManager.cpp">
+      <Filter>lowlevel\software\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevelaabb\src\BpAABBManager.cpp">
+      <Filter>lowlevelaabb\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevelaabb\src\BpAABBManagerBase.cpp">
+      <Filter>lowlevelaabb\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevelaabb\src\BpBroadPhase.cpp">
+      <Filter>lowlevelaabb\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevelaabb\src\BpBroadPhaseABP.cpp">
+      <Filter>lowlevelaabb\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevelaabb\src\BpBroadPhaseMBP.cpp">
+      <Filter>lowlevelaabb\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevelaabb\src\BpBroadPhaseSap.cpp">
+      <Filter>lowlevelaabb\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevelaabb\src\BpBroadPhaseSapAux.cpp">
+      <Filter>lowlevelaabb\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevelaabb\src\BpBroadPhaseShared.cpp">
+      <Filter>lowlevelaabb\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevelaabb\src\BpBroadPhaseUpdate.cpp">
+      <Filter>lowlevelaabb\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowlevelaabb\src\BpFiltering.cpp">
+      <Filter>lowlevelaabb\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DyArticulationContactPrep.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DyArticulationContactPrepPF.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DyConstraintPartition.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DyConstraintSetup.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DyConstraintSetupBlock.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DyContactPrep.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DyContactPrep4.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DyContactPrep4PF.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DyContactPrepPF.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DyDynamics.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DyFeatherstoneArticulation.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DyFeatherstoneForwardDynamic.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DyFeatherstoneInverseDynamic.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DyFrictionCorrelation.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DyRigidBodyToSolverBody.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DySleep.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DySolverConstraints.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DySolverConstraintsBlock.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DySolverControl.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DySolverControlPF.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DySolverPFConstraints.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DySolverPFConstraintsBlock.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DyTGSContactPrep.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DyTGSContactPrepBlock.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DyTGSDynamics.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DyThreadContext.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lowleveldynamics\src\DyThresholdTable.cpp">
+      <Filter>lowleveldynamics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpActor.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpAggregate.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpArticulationJointReducedCoordinate.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpArticulationLink.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpArticulationReducedCoordinate.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpArticulationSensor.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpArticulationTendon.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpBounds.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpCheck.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpConstraint.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpDebugViz.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpFEMCloth.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpFEMClothMaterial.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpFEMSoftBodyMaterial.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpFLIPMaterial.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpFactory.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpHairSystem.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpMPMMaterial.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpMaterial.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpMetaData.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpPBDMaterial.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpParticleSystem.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpPhysics.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpPruningStructure.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpPvdSceneClient.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpPvdSceneQueryCollector.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpRigidDynamic.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpRigidStatic.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpScene.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpSceneFetchResults.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpSceneQueries.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpSerializerAdapter.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpShape.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpShapeManager.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\NpSoftBody.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\PvdMetaDataPvdBinding.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\PvdPhysicsClient.cpp">
+      <Filter>physx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\device\linux\PhysXIndicatorLinux.cpp">
+      <Filter>physx\src\device\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\device\windows\PhysXIndicatorWindows.cpp">
+      <Filter>physx\src\device\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\gpu\PxGpu.cpp">
+      <Filter>physx\src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\gpu\PxPhysXGpuModuleLoader.cpp">
+      <Filter>physx\src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\omnipvd\NpOmniPvd.cpp">
+      <Filter>physx\src\omnipvd</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\omnipvd\NpOmniPvdRegistrationData.cpp">
+      <Filter>physx\src\omnipvd</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\omnipvd\OmniPvdChunkAlloc.cpp">
+      <Filter>physx\src\omnipvd</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\omnipvd\OmniPvdPxSampler.cpp">
+      <Filter>physx\src\omnipvd</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physx\src\windows\NpWindowsDelayLoadHook.cpp">
+      <Filter>physx\src\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxcharacterkinematic\src\CctBoxController.cpp">
+      <Filter>physxcharacterkinematic\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxcharacterkinematic\src\CctCapsuleController.cpp">
+      <Filter>physxcharacterkinematic\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxcharacterkinematic\src\CctCharacterController.cpp">
+      <Filter>physxcharacterkinematic\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxcharacterkinematic\src\CctCharacterControllerCallbacks.cpp">
+      <Filter>physxcharacterkinematic\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxcharacterkinematic\src\CctCharacterControllerManager.cpp">
+      <Filter>physxcharacterkinematic\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxcharacterkinematic\src\CctController.cpp">
+      <Filter>physxcharacterkinematic\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxcharacterkinematic\src\CctObstacleContext.cpp">
+      <Filter>physxcharacterkinematic\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxcharacterkinematic\src\CctSweptBox.cpp">
+      <Filter>physxcharacterkinematic\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxcharacterkinematic\src\CctSweptCapsule.cpp">
+      <Filter>physxcharacterkinematic\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxcharacterkinematic\src\CctSweptVolume.cpp">
+      <Filter>physxcharacterkinematic\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxcooking\src\Cooking.cpp">
+      <Filter>physxcooking\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxcooking\src\windows\WindowsCookingDelayLoadHook.cpp">
+      <Filter>physxcooking\src\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtBroadPhase.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtCollection.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtContactJoint.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtConvexMeshExt.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtCpuWorkerThread.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtCustomGeometryExt.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtCustomSceneQuerySystem.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtD6Joint.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtD6JointCreate.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtDefaultCpuDispatcher.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtDefaultErrorCallback.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtDefaultSimulationFilterShader.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtDefaultStreams.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtDistanceJoint.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtExtensions.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtFixedJoint.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtGearJoint.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtGjkQueryExt.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtJoint.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtMetaData.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtParticleClothCooker.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtParticleExt.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtPrismaticJoint.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtPvd.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtPxStringTable.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtRackAndPinionJoint.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtRaycastCCD.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtRemeshingExt.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtRevoluteJoint.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtRigidActorExt.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtRigidBodyExt.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtSampling.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtSceneQueryExt.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtSceneQuerySystem.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtSimpleFactory.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtSmoothNormals.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtSoftBodyExt.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtSphericalJoint.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtSqManager.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtSqQuery.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtTetMakerExt.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtTetrahedronMeshExt.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\ExtTriangleMeshExt.cpp">
+      <Filter>physxextensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\omnipvd\ExtOmniPvdRegistrationData.cpp">
+      <Filter>physxextensions\src\omnipvd</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\omnipvd\OmniPvdPxExtensionsSampler.cpp">
+      <Filter>physxextensions\src\omnipvd</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\serialization\Binary\SnBinaryDeserialization.cpp">
+      <Filter>physxextensions\src\serialization\Binary</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\serialization\Binary\SnBinarySerialization.cpp">
+      <Filter>physxextensions\src\serialization\Binary</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\serialization\Binary\SnConvX.cpp">
+      <Filter>physxextensions\src\serialization\Binary</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\serialization\Binary\SnConvX_Align.cpp">
+      <Filter>physxextensions\src\serialization\Binary</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\serialization\Binary\SnConvX_Convert.cpp">
+      <Filter>physxextensions\src\serialization\Binary</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\serialization\Binary\SnConvX_Error.cpp">
+      <Filter>physxextensions\src\serialization\Binary</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\serialization\Binary\SnConvX_MetaData.cpp">
+      <Filter>physxextensions\src\serialization\Binary</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\serialization\Binary\SnConvX_Output.cpp">
+      <Filter>physxextensions\src\serialization\Binary</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\serialization\Binary\SnConvX_Union.cpp">
+      <Filter>physxextensions\src\serialization\Binary</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\serialization\Binary\SnSerializationContext.cpp">
+      <Filter>physxextensions\src\serialization\Binary</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\serialization\SnSerialUtils.cpp">
+      <Filter>physxextensions\src\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\serialization\SnSerialization.cpp">
+      <Filter>physxextensions\src\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\serialization\SnSerializationRegistry.cpp">
+      <Filter>physxextensions\src\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\serialization\Xml\SnJointRepXSerializer.cpp">
+      <Filter>physxextensions\src\serialization\Xml</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\serialization\Xml\SnRepXCoreSerializer.cpp">
+      <Filter>physxextensions\src\serialization\Xml</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\serialization\Xml\SnRepXUpgrader.cpp">
+      <Filter>physxextensions\src\serialization\Xml</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\serialization\Xml\SnXmlSerialization.cpp">
+      <Filter>physxextensions\src\serialization\Xml</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\tet\ExtBVH.cpp">
+      <Filter>physxextensions\src\tet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\tet\ExtDelaunayBoundaryInserter.cpp">
+      <Filter>physxextensions\src\tet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\tet\ExtDelaunayTetrahedralizer.cpp">
+      <Filter>physxextensions\src\tet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\tet\ExtFastWindingNumber.cpp">
+      <Filter>physxextensions\src\tet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\tet\ExtInsideTester.cpp">
+      <Filter>physxextensions\src\tet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\tet\ExtMeshSimplificator.cpp">
+      <Filter>physxextensions\src\tet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\tet\ExtOctreeTetrahedralizer.cpp">
+      <Filter>physxextensions\src\tet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\tet\ExtRemesher.cpp">
+      <Filter>physxextensions\src\tet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\tet\ExtTetSplitting.cpp">
+      <Filter>physxextensions\src\tet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\tet\ExtTetUnionFind.cpp">
+      <Filter>physxextensions\src\tet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\tet\ExtUtilities.cpp">
+      <Filter>physxextensions\src\tet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxextensions\src\tet\ExtVoxelTetrahedralizer.cpp">
+      <Filter>physxextensions\src\tet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxmetadata\core\src\PxAutoGeneratedMetaDataObjects.cpp">
+      <Filter>physxmetadata\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxmetadata\core\src\PxMetaDataObjects.cpp">
+      <Filter>physxmetadata\core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxmetadata\extensions\src\PxExtensionAutoGeneratedMetaDataObjects.cpp">
+      <Filter>physxmetadata\extensions\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle\src\PxVehicleComponents.cpp">
+      <Filter>physxvehicle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle\src\PxVehicleDrive.cpp">
+      <Filter>physxvehicle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle\src\PxVehicleDrive4W.cpp">
+      <Filter>physxvehicle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle\src\PxVehicleDriveNW.cpp">
+      <Filter>physxvehicle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle\src\PxVehicleDriveTank.cpp">
+      <Filter>physxvehicle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle\src\PxVehicleMetaData.cpp">
+      <Filter>physxvehicle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle\src\PxVehicleNoDrive.cpp">
+      <Filter>physxvehicle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle\src\PxVehicleSDK.cpp">
+      <Filter>physxvehicle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle\src\PxVehicleSerialization.cpp">
+      <Filter>physxvehicle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle\src\PxVehicleSuspWheelTire4.cpp">
+      <Filter>physxvehicle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle\src\PxVehicleTireFriction.cpp">
+      <Filter>physxvehicle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle\src\PxVehicleUpdate.cpp">
+      <Filter>physxvehicle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle\src\PxVehicleWheels.cpp">
+      <Filter>physxvehicle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle\src\VehicleUtilControl.cpp">
+      <Filter>physxvehicle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle\src\VehicleUtilSetup.cpp">
+      <Filter>physxvehicle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle\src\VehicleUtilTelemetry.cpp">
+      <Filter>physxvehicle\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle\src\physxmetadata\src\PxVehicleAutoGeneratedMetaDataObjects.cpp">
+      <Filter>physxvehicle\src\physxmetadata\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle\src\physxmetadata\src\PxVehicleMetaDataObjects.cpp">
+      <Filter>physxvehicle\src\physxmetadata\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle2\src\commands\VhCommandHelpers.cpp">
+      <Filter>physxvehicle2\src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle2\src\drivetrain\VhDrivetrainFunctions.cpp">
+      <Filter>physxvehicle2\src\drivetrain</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle2\src\drivetrain\VhDrivetrainHelpers.cpp">
+      <Filter>physxvehicle2\src\drivetrain</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle2\src\physxActor\VhPhysXActorFunctions.cpp">
+      <Filter>physxvehicle2\src\physxActor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle2\src\physxActor\VhPhysXActorHelpers.cpp">
+      <Filter>physxvehicle2\src\physxActor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle2\src\physxConstraints\VhPhysXConstraintFunctions.cpp">
+      <Filter>physxvehicle2\src\physxConstraints</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle2\src\physxConstraints\VhPhysXConstraintHelpers.cpp">
+      <Filter>physxvehicle2\src\physxConstraints</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle2\src\physxRoadGeometry\VhPhysXRoadGeometryFunctions.cpp">
+      <Filter>physxvehicle2\src\physxRoadGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle2\src\physxRoadGeometry\VhPhysXRoadGeometryHelpers.cpp">
+      <Filter>physxvehicle2\src\physxRoadGeometry</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle2\src\pvd\VhPvdFunctions.cpp">
+      <Filter>physxvehicle2\src\pvd</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle2\src\pvd\VhPvdHelpers.cpp">
+      <Filter>physxvehicle2\src\pvd</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle2\src\pvd\VhPvdWriter.cpp">
+      <Filter>physxvehicle2\src\pvd</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle2\src\rigidBody\VhRigidBodyFunctions.cpp">
+      <Filter>physxvehicle2\src\rigidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle2\src\steering\VhSteeringFunctions.cpp">
+      <Filter>physxvehicle2\src\steering</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle2\src\suspension\VhSuspensionFunctions.cpp">
+      <Filter>physxvehicle2\src\suspension</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle2\src\suspension\VhSuspensionHelpers.cpp">
+      <Filter>physxvehicle2\src\suspension</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle2\src\tire\VhTireFunctions.cpp">
+      <Filter>physxvehicle2\src\tire</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle2\src\tire\VhTireHelpers.cpp">
+      <Filter>physxvehicle2\src\tire</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physxvehicle2\src\wheel\VhWheelFunctions.cpp">
+      <Filter>physxvehicle2\src\wheel</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pvd\src\PxProfileEventImpl.cpp">
+      <Filter>pvd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pvd\src\PxPvd.cpp">
+      <Filter>pvd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pvd\src\PxPvdDataStream.cpp">
+      <Filter>pvd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pvd\src\PxPvdDefaultFileTransport.cpp">
+      <Filter>pvd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pvd\src\PxPvdDefaultSocketTransport.cpp">
+      <Filter>pvd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pvd\src\PxPvdImpl.cpp">
+      <Filter>pvd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pvd\src\PxPvdMemClient.cpp">
+      <Filter>pvd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pvd\src\PxPvdObjectModelMetaData.cpp">
+      <Filter>pvd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pvd\src\PxPvdObjectRegistrar.cpp">
+      <Filter>pvd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pvd\src\PxPvdProfileZoneClient.cpp">
+      <Filter>pvd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pvd\src\PxPvdUserRenderer.cpp">
+      <Filter>pvd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\scenequery\src\SqCompoundPruner.cpp">
+      <Filter>scenequery\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\scenequery\src\SqCompoundPruningPool.cpp">
+      <Filter>scenequery\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\scenequery\src\SqFactory.cpp">
+      <Filter>scenequery\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\scenequery\src\SqManager.cpp">
+      <Filter>scenequery\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\scenequery\src\SqQuery.cpp">
+      <Filter>scenequery\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScActorCore.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScActorSim.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScArticulationCore.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScArticulationJointCore.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScArticulationJointSim.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScArticulationSensorSim.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScArticulationSim.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScArticulationTendonCore.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScArticulationTendonJointCore.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScArticulationTendonSim.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScBodyCore.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScBodySim.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScBroadphase.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScCCD.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScConstraintBreakage.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScConstraintCore.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScConstraintInteraction.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScConstraintSim.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScElementInteractionMarker.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScElementSim.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScFEMClothCore.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScFEMClothShapeSim.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScFEMClothSim.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScFiltering.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScHairSystemCore.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScHairSystemShapeCore.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScHairSystemShapeSim.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScHairSystemSim.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScInteraction.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScIterators.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScKinematics.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScMetaData.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScNPhaseCore.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScParticleSystemCore.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScParticleSystemShapeCore.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScParticleSystemShapeSim.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScParticleSystemSim.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScPhysics.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScPipeline.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScRigidCore.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScRigidSim.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScScene.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScShapeCore.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScShapeInteraction.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScShapeSim.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScShapeSimBase.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScSimStats.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScSimulationController.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScSleep.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScSoftBodyCore.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScSoftBodyShapeSim.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScSoftBodySim.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScSqBoundsManager.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScStaticCore.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScTriggerInteraction.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\simulationcontroller\src\ScVisualize.cpp">
+      <Filter>simulationcontroller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\task\src\TaskManager.cpp">
+      <Filter>task\src</Filter>
+    </ClCompile>
+    <ClCompile Include="snippets\snippetcustomgeometry\VoxelMap.cpp" />
+  </ItemGroup>
+</Project>
